@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Varela+Round');
+@import 'black_green';
 html, body {
     overflow-x: hidden;
     height: 100%;
@@ -15,7 +16,7 @@ body {
     width: 100%;
     max-width: 100%;
     box-shadow: none;
-    background-color: #FC466B;
+    background-color: $lemon_pop;
     position: fixed;
     height: 60px!important;
     overflow: hidden;
@@ -48,7 +49,7 @@ body {
     margin-top: 60px;
     transform: translateX(-250px);
     transition: transform 250ms ease-in-out;
-    background: linear-gradient(180deg, #FC466B 0%, #3F5EFB 100%);
+    background: $midnight;
 }
 .sidebarMenuInner{
     margin:0;
@@ -57,12 +58,12 @@ body {
 }
 .sidebarMenuInner li{
     list-style: none;
-    color: #fff;
+    color: #ffffff;
     text-transform: uppercase;
     font-weight: bold;
     padding: 20px;
     cursor: pointer;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.10);
+    border-bottom: 1px solid ;
 }
 .sidebarMenuInner li span{
     display: block;
@@ -70,7 +71,7 @@ body {
     color: rgba(255, 255, 255, 0.50);
 }
 .sidebarMenuInner li a{
-    color: #fff;
+    color: #ffffff;
     text-transform: uppercase;
     font-weight: bold;
     cursor: pointer;
