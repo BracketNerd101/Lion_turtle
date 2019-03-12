@@ -2,19 +2,20 @@ body {
   min-height: 12000px; }
 
 .main_hero_intro_img {
-  background-image: url("../img/Native_intro_dash.jpg");
+  background-image: url("../img/mobile_small_custom.png");
   background-size: cover;
-  height: 35rem;
-  width: auto; }
+  height: 100vh;
+  width: auto;
+  margin-bottom: auto; }
 
 .motion_hero_intro_img {
-  background-image: url("../img/Native_intro_dash.jpg");
+  background-image: url("../img/camera_close_up.jpg");
   background-size: cover;
   height: 35rem;
   width: auto; }
 
 .fis_port_img {
-  background-image: url("../img/Native_intro_dash.jpg");
+  background-image: url("../img/fis_close_global_search.jpg");
   background-size: cover;
   height: 35rem;
   width: 100%;
