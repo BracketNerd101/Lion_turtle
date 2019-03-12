@@ -1,3 +1,44 @@
+body {
+  min-height: 12000px; }
 
+.main_hero_intro_img {
+  background-image: url("../img/Native_intro_dash.jpg");
+  background-size: cover;
+  height: 35rem;
+  width: auto; }
+
+.motion_hero_intro_img {
+  background-image: url("../img/Native_intro_dash.jpg");
+  background-size: cover;
+  height: 35rem;
+  width: auto; }
+
+.fis_port_img {
+  background-image: url("../img/Native_intro_dash.jpg");
+  background-size: cover;
+  height: 35rem;
+  width: auto;
+  margin-bottom: auto; }
+
+.provider_img {
+  background-image: url("../img/Providers-flat.png");
+  background-size: cover;
+  height: 35rem;
+  width: auto;
+  margin-bottom: auto; }
+
+.portfolio_frame {
+  height: 35rem;
+  width: 100%; }
+
+.portfolio_frame_secondary {
+  height: 35rem;
+  width: 100%; }
+
+.large_sep {
+  margin-top: 8rem; }
+
+.small_sep {
+  margin-top: 3rem; }
 
 /*# sourceMappingURL=main_style.css.map */
