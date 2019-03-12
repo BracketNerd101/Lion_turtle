@@ -17,14 +17,14 @@ body {
   background-image: url("../img/Native_intro_dash.jpg");
   background-size: cover;
   height: 35rem;
-  width: auto;
+  width: 100%;
   margin-bottom: auto; }
 
 .provider_img {
   background-image: url("../img/Providers-flat.png");
   background-size: cover;
   height: 35rem;
-  width: auto;
+  width: 100%;
   margin-bottom: auto; }
 
 .portfolio_frame {
