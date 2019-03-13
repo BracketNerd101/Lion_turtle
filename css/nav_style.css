@@ -2,5 +2,20 @@
 /* Coolors Exported Palette - coolors.co/0d1b2a-1b263b-415a77-778da9-c8e07f */
 /* HSL */
 /* RGB */
+.nav_section_space_top {
+  margin-top: 4rem; }
+
+.nav_section_space_bottom {
+  margin-bottom: 4rem; }
+
+.nav_text_style {
+  font-size: 1.2rem; }
+
+.nav_naked {
+  border: none; }
+
+.logo_placement {
+  top: 4px;
+  left: 10px; }
 
 /*# sourceMappingURL=nav_style.css.map */
