@@ -7,13 +7,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/nav_style.css">
     <link rel="stylesheet" type="text/css" href="css/main_style.css">
     <link rel="stylesheet" type="text/css" href="scss/nav_style.scss">
     <link rel="stylesheet" type="text/css" href="scss/black_green.scss">
     <link rel="stylesheet" type="text/css" href="scss/main_style.scss">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" type="text/css" href="css/nav_style.css">
+    <link rel="stylesheet" type="text/css" href="css/main_style.css">
+    <link rel="stylesheet" type="text/css" href="scss/nav_style.scss">
+    <link rel="stylesheet" type="text/css" href="scss/black_green.scss">
+    <link rel="stylesheet" type="text/css" href="scss/main_style.scss"> -->
 
     <title>Design By Arthur</title>
 </head>
@@ -21,26 +26,38 @@
 <!-- Look up one way functions on youtube -->
 
 <body>
+        <div class="pos-f-t">
+                <div class="collapse" id="navbarToggleExternalContent">
+                  <div class="bg-dark p-4">
+                    <h5 class="text-white h4 float-right">Collapsed content</h5>
+                    <span class="text-muted">Toggleable via the navbar brand.</span>
+                  </div>
+                </div>
+                <nav class="navbar navbar-dark bg-dark">
+                  <div class="nav justify-content-end">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon float-right"></span>
+                              </button>
+                  </div>
+                </nav>
+              </div>
 
-    <div class="header"></div>
+       
+        <!-- <div class="container-fluid">
+            <div class="row">
+                    <div class="text-dark"><p class="float-right">ace</p></div>
+            </div>
+        </div> -->
+           
+    <!-- <div class="header bars_color"></div>
     <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
     <label for="openSidebarMenu" class="sidebarIconToggle">
         <div class="spinner diagonal part-1"></div>
         <div class="spinner horizontal"></div>
         <div class="spinner diagonal part-2"></div>
-    </label>
-    <div id="sidebarMenu">
-        <ul class="sidebarMenuInner">
-            <li>Arthur Charles Edwards 
-                <!-- <span>Web Developer</span> -->
-            </li>
-            <li><a href="https://vanila.io" target="_blank">Portfolio</a></li>
-            <li><a href="https://instagram.com/plavookac" target="_blank">About</a></li>
-            <li><a href="https://twitter.com/plavookac" target="_blank">Contact</a></li>
-            <li><a href="https://www.youtube.com/channel/UCDfZM0IK6RBgud8HYGFXAJg" target="_blank">Résumé</a></li>
-            <li><a href="https://www.linkedin.com/in/plavookac/" target="_blank">Linkedin</a></li>
-        </ul>
-    </div>
+        <!-- Just an image -->
+        
+   
 
 
     <!-- Optional JavaScript -->
@@ -54,6 +71,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+
 </body>
 
 </html>
