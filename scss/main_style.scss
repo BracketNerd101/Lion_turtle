@@ -4,18 +4,31 @@ min-height: 12000px;
     
 }
 
+.jumbotron {
+
+    margin-bottom: 0;
+}
+
 .main_hero_intro_img {
 
     background-image: url('../img/mobile_small_custom.png');
     background-size: cover;
     height: 100vh;
     width: auto;
-    margin-bottom: auto;
+    // margin-bottom: auto;
 }
 
 .motion_hero_intro_img {
 
     background-image: url('../img/camera_close_up.jpg');
+    background-size: cover;
+    height: 35rem;
+    width: auto;
+}
+
+.world_hero_intro_img {
+
+    background-image: url('../img/bank_iphone_sign_up.jpg');
     background-size: cover;
     height: 35rem;
     width: auto;
@@ -30,9 +43,27 @@ min-height: 12000px;
     margin-bottom: auto;
 }
 
-    .provider_img {
+.provider_img {
 
     background-image: url('../img/Providers-flat.png');
+    background-size: cover;
+    height: 35rem;
+    width: 100%;
+    margin-bottom: auto;
+}
+
+.run_img {
+
+    background-image: url('../img/run-through-poster.png');
+    background-size: cover;
+    height: 35rem;
+    width: 100%;
+    margin-bottom: auto;
+}
+
+.mwe_img {
+
+    background-image: url('../img/MWE-FL-BLUE-Perspective-3.jpg');
     background-size: cover;
     height: 35rem;
     width: 100%;
