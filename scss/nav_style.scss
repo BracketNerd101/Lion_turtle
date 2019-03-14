@@ -24,8 +24,20 @@
     border: none;
 }
 
-.logo_placement {
+.nav_header_color {
 
-    top: 4px;
-    left: 10px;
+    background-color: rgba(50,205,50 ,0.9 )
 }
+
+.off_nav_layer {
+
+    z-index: 9000000000000000;
+}
+
+#rabbit {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        display: block;
+        transition: top 0.3s;
+      }
