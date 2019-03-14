@@ -34,6 +34,8 @@ min-height: 12000px;
     width: auto;
 }
 
+
+
 .fis_port_img {
 
     background-image: url('../img/fis_close_global_search.jpg');
@@ -64,6 +66,24 @@ min-height: 12000px;
 .mwe_img {
 
     background-image: url('../img/MWE-FL-BLUE-Perspective-3.jpg');
+    background-size: cover;
+    height: 35rem;
+    width: 100%;
+    margin-bottom: auto;
+}
+
+.flower_img {
+
+    background-image: url('../img/flower.jpg');
+    background-size: cover;
+    height: 35rem;
+    width: 100%;
+    margin-bottom: auto;
+}
+
+.art_img {
+
+    background-image: url('../img/Allison.jpg');
     background-size: cover;
     height: 35rem;
     width: 100%;
