@@ -1,6 +1,6 @@
 body {
 margin: 0;
-min-height: 12000px;
+min-height: 120px;
     
 }
 
@@ -17,6 +17,22 @@ min-height: 12000px;
     width: auto;
     // margin-bottom: auto;
 }
+
+.folio_label {
+
+    opacity: 1;
+    transition: 0.4s;
+
+}
+
+.folio_label:hover {
+
+    opacity: 0.8;
+    transition: 0.4s;
+
+    
+}
+
 
 .motion_hero_intro_img {
 
@@ -108,7 +124,11 @@ min-height: 12000px;
 
     margin-top: 8rem;
 
+}
 
+.large_sep_bottom {
+
+    margin-bottom: 8rem;
 
 }
 

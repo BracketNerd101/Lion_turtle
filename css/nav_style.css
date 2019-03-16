@@ -25,12 +25,15 @@
   top: 0;
   width: 100%;
   display: block;
-  transition: top 0.3s; }
+  transition: top 0.7s; }
 
 .footer_space_bottom {
   margin-bottom: 8rem; }
 
-.footer_space_top {
-  margin-bottom: 8rem; }
+.footer_space_padding {
+  padding-bottom: 1rem; }
+
+.footer_container_box {
+  height: inherit; }
 
 /*# sourceMappingURL=nav_style.css.map */
