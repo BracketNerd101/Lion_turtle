@@ -3,7 +3,43 @@ body {
   min-height: 120px; }
 
 .jumbotron {
-  margin-bottom: 0; }
+  margin-bottom: 0;
+  background-color: none; }
+
+.nav_logo {
+  font-family: 'Montserrat Alternates', sans-serif; }
+
+.hero_intro_img {
+  background-size: cover;
+  background-color: rgba(50, 205, 50, 0.9);
+  background-color: #ffffff;
+  height: 90vh;
+  width: auto;
+  margin-bottom: auto;
+  display: flex;
+  align-items: center;
+  text-align: center; }
+  .hero_intro_img .hello_hero_bottom {
+    justify-content: center;
+    flex-direction: flex-end;
+    align-items: baseline; }
+  .hero_intro_img .hello_hero_text {
+    font-size: 20rem;
+    align-items: center;
+    text-align: center;
+    font-family: 'Montserrat Alternates', sans-serif; }
+    @media (min-width: 576px) {
+      .hero_intro_img .hello_hero_text {
+        font-size: 20rem; } }
+    @media (min-width: 768px) {
+      .hero_intro_img .hello_hero_text {
+        font-size: 20rem; } }
+    @media (min-width: 992px) {
+      .hero_intro_img .hello_hero_text {
+        font-size: 20rem; } }
+    @media (min-width: 1200px) {
+      .hero_intro_img .hello_hero_text {
+        font-size: 20rem; } }
 
 .main_hero_intro_img {
   background-image: url("../img/mobile_small_custom.png");
