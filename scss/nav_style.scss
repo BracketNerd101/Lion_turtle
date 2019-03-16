@@ -45,15 +45,17 @@
 
     //   Footer 
 
-    .footer_space_bottom {
+    .footer_space_top {
 
-        margin-bottom: 8rem;
+        padding-top: 8rem;
     
     }
 
     .footer_space_bottom {
 
-        margin-bottom: 8rem;
+        padding-bottom: 8rem;
     
     }
-    
+    .footer_style_nav {
+        height: inherit;
+    }

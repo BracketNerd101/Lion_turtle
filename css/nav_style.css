@@ -27,10 +27,13 @@
   display: block;
   transition: top 0.3s; }
 
-.footer_space_bottom {
-  margin-bottom: 8rem; }
+.footer_space_top {
+  padding-top: 8rem; }
 
 .footer_space_bottom {
-  margin-bottom: 8rem; }
+  padding-bottom: 8rem; }
+
+.footer_style_nav {
+  height: inherit; }
 
 /*# sourceMappingURL=nav_style.css.map */
