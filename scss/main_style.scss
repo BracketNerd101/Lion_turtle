@@ -22,7 +22,7 @@ min-height: 120px;
 .hero_intro_img {
 
     background-size: cover;
-    background-color: rgba(50,205,50 ,0.9);
+    // background-color: rgba(50,205,50 ,0.9);
     background-color:#ffffff;
     height: 96vh;
     width: auto;
@@ -50,6 +50,7 @@ min-height: 120px;
 
         font-size: 20rem;
         align-items: center;
+        color: rgba(50,205,50 ,1);
         text-align: center;
         font-family: 'Montserrat Alternates', sans-serif;
         @media (min-width: 376px) { font-size: 6rem; }
