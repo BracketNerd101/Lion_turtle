@@ -13,7 +13,7 @@ body {
   background-size: cover;
   background-color: rgba(50, 205, 50, 0.9);
   background-color: #ffffff;
-  height: 90vh;
+  height: 96vh;
   width: auto;
   margin-bottom: auto;
   display: flex;
@@ -28,15 +28,18 @@ body {
     align-items: center;
     text-align: center;
     font-family: 'Montserrat Alternates', sans-serif; }
-    @media (min-width: 576px) {
+    @media (min-width: 376px) {
       .hero_intro_img .hello_hero_text {
-        font-size: 20rem; } }
+        font-size: 6rem; } }
+    @media (min-width: 476px) {
+      .hero_intro_img .hello_hero_text {
+        font-size: 8rem; } }
     @media (min-width: 768px) {
       .hero_intro_img .hello_hero_text {
-        font-size: 20rem; } }
+        font-size: 10rem; } }
     @media (min-width: 992px) {
       .hero_intro_img .hello_hero_text {
-        font-size: 20rem; } }
+        font-size: 14rem; } }
     @media (min-width: 1200px) {
       .hero_intro_img .hello_hero_text {
         font-size: 20rem; } }

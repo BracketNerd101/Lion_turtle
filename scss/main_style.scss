@@ -24,7 +24,7 @@ min-height: 120px;
     background-size: cover;
     background-color: rgba(50,205,50 ,0.9);
     background-color:#ffffff;
-    height: 90vh;
+    height: 96vh;
     width: auto;
     margin-bottom: auto;
     display: flex;
@@ -52,13 +52,15 @@ min-height: 120px;
         align-items: center;
         text-align: center;
         font-family: 'Montserrat Alternates', sans-serif;
-        @media (min-width: 576px) { font-size: 20rem; }
+        @media (min-width: 376px) { font-size: 6rem; }
+
+        @media (min-width: 476px) { font-size: 8rem; }
 
         // Medium devices (tablets, 768px and up)
-        @media (min-width: 768px) { font-size: 20rem; }
+        @media (min-width: 768px) { font-size: 10rem; }
         
         // Large devices (desktops, 992px and up)
-        @media (min-width: 992px) { font-size: 20rem; }
+        @media (min-width: 992px) { font-size: 14rem; }
         
         // Extra large devices (large desktops, 1200px and up)
         @media (min-width: 1200px) { font-size: 20rem; }
