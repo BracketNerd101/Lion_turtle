@@ -1,0 +1,101 @@
+$FLB: #0091cc;
+
+$RUN: #f53269; 
+
+$FIS:#83ba22; 
+
+$WB: #dc3545; 
+
+$Motion: #000000; 
+
+.FLB {
+
+    color:#0091cc
+}
+
+.RUN {
+
+    color:#f53269   
+}
+
+.FIS {
+
+    color:#83ba22  
+}
+
+.WB {
+
+    color:#dc3545    
+}
+
+.Motion {
+
+    color:#000000   
+
+}
+
+
+
+.bill_hero {
+
+    background-image: url('../img/fb_Review_payment.jpg');
+    background-size: cover;
+    height: 40rem;
+    width: 100%;
+    margin-bottom: auto;
+}
+
+.fis_hero {
+
+    background-image: url('../img/BEACH-FAMILY005.jpg');
+    background-size: cover;
+    height: 35rem;
+    width: 100%;
+    margin-bottom: auto;
+}
+
+.bank_hero {
+
+    background-image: url('../img/BEACH-FAMILY005.jpg');
+    background-size: cover;
+    height: 35rem;
+    width: 100%;
+    margin-bottom: auto;
+}
+
+.provider_hero {
+
+    background-image: url('../img/BEACH-FAMILY005.jpg');
+    background-size: cover;
+    height: 35rem;
+    width: 100%;
+    margin-bottom: auto;
+}
+
+
+.run_hero {
+
+    background-image: url('../img/BEACH-FAMILY005.jpg');
+    background-size: cover;
+    height: 35rem;
+    width: 100%;
+    margin-bottom: auto;
+}
+
+#bg {
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 100%;
+    z-index: -3;
+    background-size: cover;
+}
+
+img {
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 100%;
+    height: auto;
+    -ms-interpolation-mode: bicubic;
+}
+
+
