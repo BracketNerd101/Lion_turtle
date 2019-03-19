@@ -20,29 +20,43 @@
   width: 100%;
   margin-bottom: auto; }
 
-.fis_hero {
-  background-image: url("../img/BEACH-FAMILY005.jpg");
-  background-size: cover;
-  height: 35rem;
-  width: 100%;
-  margin-bottom: auto; }
-
 .bank_hero {
-  background-image: url("../img/BEACH-FAMILY005.jpg");
+  background-image: url("../img/bank_mobile_white.png");
   background-size: cover;
   height: 35rem;
   width: 100%;
   margin-bottom: auto; }
 
 .provider_hero {
-  background-image: url("../img/BEACH-FAMILY005.jpg");
+  background-image: url("../img/Providers-flat-colors.jpg");
+  background-size: cover;
+  height: 35rem;
+  width: 100%;
+  margin-bottom: auto; }
+
+.fis_hero {
+  background-image: url("../img/fis_forum.jpg");
   background-size: cover;
   height: 35rem;
   width: 100%;
   margin-bottom: auto; }
 
 .run_hero {
-  background-image: url("../img/BEACH-FAMILY005.jpg");
+  background-image: url("../img/run-mobile-6s.jpg");
+  background-size: cover;
+  height: 35rem;
+  width: 100%;
+  margin-bottom: auto; }
+
+.member_hero {
+  background-image: url("../img/MWE opt macbook-air-at-coffee.jpg");
+  background-size: cover;
+  height: 35rem;
+  width: 100%;
+  margin-bottom: auto; }
+
+.motion_hero {
+  background-image: url("../img/camera_close_up.jpg");
   background-size: cover;
   height: 35rem;
   width: 100%;
