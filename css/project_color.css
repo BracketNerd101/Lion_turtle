@@ -1,3 +1,6 @@
+body {
+  scroll-behavior: smooth; }
+
 .FLB {
   color: #0091cc; }
 
@@ -64,6 +67,13 @@
 
 .photo_hero {
   background-image: url("../img/BEACH-FAMILY005.jpg");
+  background-size: cover;
+  height: 35rem;
+  width: 100%;
+  margin-bottom: auto; }
+
+.about_hero {
+  background-image: url("../img/about_arthur_img.JPG");
   background-size: cover;
   height: 35rem;
   width: 100%;
