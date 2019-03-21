@@ -81,7 +81,7 @@ body {
 
 .profile-img {
   overflow: hidden;
-  background-image: url("../img/ace_yo.PNG");
+  background-image: url("../img/about_arthur_img.JPG");
   background-size: cover;
   height: 30rem;
   width: 100%; }
@@ -89,6 +89,13 @@ body {
 .profile-img-2 {
   overflow: hidden;
   background-image: url("../img/ace_chess.jpg");
+  background-size: cover;
+  height: 30rem;
+  width: 100%; }
+
+.profile-img-3 {
+  overflow: hidden;
+  background-image: url("../img/ace_frog.jpg");
   background-size: cover;
   height: 30rem;
   width: 100%; }
