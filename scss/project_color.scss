@@ -127,8 +127,18 @@ $Motion: #000000;
 
     overflow: hidden;
     background-image: url('../img/ace_yo.PNG');
-    height: 35rem;
-    width: auto;
+    background-size: cover;
+    height: 30rem;
+    width: 100%;
+}
+
+.profile-img-2 {
+
+    overflow: hidden;
+    background-image: url('../img/ace_chess.jpg');
+    background-size: cover;
+    height: 30rem;
+    width: 100%;
 }
 
 #bg {
