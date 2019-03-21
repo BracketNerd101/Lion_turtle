@@ -18,7 +18,7 @@ function passWord() {
         // history.go(-1);
     } else {
         alert('Correct Click ok to see portfolio!');
-        window.open('fb_billing.html');
+        window.open('fb_billing.html', '');
     }
     return " ";
 }
