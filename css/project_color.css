@@ -16,6 +16,9 @@ body {
 .Motion {
   color: #000000; }
 
+.intro_header_about_style {
+  font-family: 'Montserrat Alternates', sans-serif; }
+
 .bill_hero {
   background-image: url("../img/fb_Review_payment.jpg");
   background-size: cover;
@@ -96,6 +99,13 @@ body {
 .profile-img-3 {
   overflow: hidden;
   background-image: url("../img/ace_frog.jpg");
+  background-size: cover;
+  height: 30rem;
+  width: 100%; }
+
+.profile-img-4 {
+  overflow: hidden;
+  background-image: url("../img/pdx_snow.jpg");
   background-size: cover;
   height: 30rem;
   width: 100%; }
