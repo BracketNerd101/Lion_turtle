@@ -28,6 +28,9 @@ body {
     color: limegreen;
     text-align: center;
     font-family: 'Montserrat Alternates', sans-serif; }
+    @media (min-width: 370px) {
+      .hero_intro_img .hello_hero_text {
+        font-size: 4rem; } }
     @media (min-width: 376px) {
       .hero_intro_img .hello_hero_text {
         font-size: 6rem; } }

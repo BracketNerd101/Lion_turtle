@@ -53,6 +53,8 @@ min-height: 120px;
         color: rgba(50,205,50 ,1);
         text-align: center;
         font-family: 'Montserrat Alternates', sans-serif;
+
+        @media (min-width: 370px) { font-size: 4rem; }
         @media (min-width: 376px) { font-size: 6rem; }
 
         @media (min-width: 476px) { font-size: 8rem; }
