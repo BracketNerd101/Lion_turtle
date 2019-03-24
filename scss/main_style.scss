@@ -157,6 +157,8 @@ min-height: 120px;
         // Extra large devices (large desktops, 1200px and up)
         @media (min-width: 1200px) { background-image: url('../img/mobile_small_custom.png');
             background-size: cover;
+            background-repeat-x: no-repeat;
+                background-repeat-y: no-repeat;
             height: 40rem;
             width: auto;
             background-color: none; }
@@ -279,7 +281,7 @@ min-height: 120px;
         background-repeat-x: no-repeat;
         background-repeat-y: no-repeat;
         background-position-y: no;
-        height: 40rem;
+        height: 20rem;
         width: 100%;  }
        
         
