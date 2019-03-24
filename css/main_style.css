@@ -4,7 +4,7 @@ body {
 
 .jumbotron {
   margin-bottom: 0;
-  background-color: none; }
+  background-color: none !important; }
 
 .nav_logo {
   font-family: 'Montserrat Alternates', sans-serif; }
@@ -51,7 +51,8 @@ body {
   background-image: url("../img/mobile_small_custom.png");
   background-size: cover;
   height: 40rem;
-  width: auto; }
+  width: auto;
+  background-color: none; }
 
 .folio_label {
   opacity: 1;
