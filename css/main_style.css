@@ -5,6 +5,12 @@ body {
 .jumbotron {
   margin-bottom: 0;
   background-color: none !important; }
+  @media (min-width: 370px) {
+    .jumbotron {
+      background-color: none; } }
+  @media (min-width: 376px) {
+    .jumbotron {
+      background-color: none; } }
 
 .nav_logo {
   font-family: 'Montserrat Alternates', sans-serif; }
@@ -53,6 +59,77 @@ body {
   height: 40rem;
   width: auto;
   background-color: none; }
+  @media (min-width: 370px) {
+    .main_hero_intro_img {
+      background-size: contain;
+      background-repeat-x: no-repeat;
+      background-repeat-y: no-repeat;
+      background-position-y: no;
+      height: 16rem;
+      width: auto; } }
+  @media (min-width: 376px) {
+    .main_hero_intro_img {
+      background-size: contain;
+      background-repeat-x: no-repeat;
+      background-repeat-y: no-repeat;
+      background-position-y: no;
+      height: 16rem;
+      width: auto; } }
+  @media (min-width: 476px) {
+    .main_hero_intro_img {
+      background-size: contain;
+      background-repeat-x: no-repeat;
+      background-repeat-y: no-repeat;
+      background-position-y: no;
+      height: 19rem;
+      width: auto; } }
+  @media (min-width: 476px) {
+    .main_hero_intro_img {
+      background-size: contain;
+      background-repeat-x: no-repeat;
+      background-repeat-y: no-repeat;
+      background-position-y: no;
+      height: 19rem;
+      width: auto; } }
+  @media (min-width: 656px) {
+    .main_hero_intro_img {
+      background-size: contain;
+      background-repeat-x: no-repeat;
+      background-repeat-y: no-repeat;
+      background-position-y: no;
+      height: 100vw;
+      width: auto; } }
+  @media (min-width: 768px) {
+    .main_hero_intro_img {
+      background-size: contain;
+      background-repeat-x: no-repeat;
+      background-repeat-y: no-repeat;
+      background-position-y: no;
+      height: 30rem;
+      width: auto; } }
+  @media (min-width: 992px) {
+    .main_hero_intro_img {
+      background-size: contain;
+      background-repeat-x: no-repeat;
+      background-repeat-y: no-repeat;
+      background-position-y: no;
+      height: 40rem;
+      width: auto; } }
+  @media (min-width: 1190px) {
+    .main_hero_intro_img {
+      background-size: contain;
+      background-repeat-x: no-repeat;
+      background-repeat-y: no-repeat;
+      background-position-y: no;
+      height: 40rem;
+      width: auto; } }
+  @media (min-width: 1200px) {
+    .main_hero_intro_img {
+      background-image: url("../img/mobile_small_custom.png");
+      background-size: cover;
+      height: 40rem;
+      width: auto;
+      background-color: none; } }
 
 .folio_label {
   opacity: 1;
@@ -67,12 +144,28 @@ body {
   background-size: cover;
   height: 35rem;
   width: auto; }
+  @media (min-width: 376px) and (max-width: 476px) {
+    .motion_hero_intro_img {
+      background-size: contain;
+      background-repeat-x: no-repeat;
+      background-repeat-y: no-repeat;
+      background-position-y: no;
+      height: 18rem;
+      width: 100%; } }
 
 .world_hero_intro_img {
   background-image: url("../img/bank_iphone_sign_up.jpg");
   background-size: cover;
   height: 35rem;
   width: auto; }
+  @media (min-width: 376px) and (max-width: 476px) {
+    .world_hero_intro_img {
+      background-size: contain;
+      background-repeat-x: no-repeat;
+      background-repeat-y: no-repeat;
+      background-position-y: no;
+      height: 18rem;
+      width: 100%; } }
 
 .fis_port_img {
   background-image: url("../img/fis_close_global_search.jpg");
@@ -80,6 +173,14 @@ body {
   height: 35rem;
   width: 100%;
   margin-bottom: auto; }
+  @media (min-width: 376px) and (max-width: 476px) {
+    .fis_port_img {
+      background-size: contain;
+      background-repeat-x: no-repeat;
+      background-repeat-y: no-repeat;
+      background-position-y: no;
+      height: 18rem;
+      width: 100%; } }
 
 .provider_img {
   background-image: url("../img/Providers-flat.png");
@@ -94,6 +195,14 @@ body {
   height: 35rem;
   width: 100%;
   margin-bottom: auto; }
+  @media (min-width: 376px) and (max-width: 476px) {
+    .run_img {
+      background-size: contain;
+      background-repeat-x: no-repeat;
+      background-repeat-y: no-repeat;
+      background-position-y: no;
+      height: 19rem;
+      width: 100%; } }
 
 .mwe_img {
   background-image: url("../img/MWE-FL-BLUE-Perspective-3.jpg");
@@ -101,6 +210,14 @@ body {
   height: 35rem;
   width: 100%;
   margin-bottom: auto; }
+  @media (min-width: 376px) and (max-width: 476px) {
+    .mwe_img {
+      background-size: contain;
+      background-repeat-x: no-repeat;
+      background-repeat-y: no-repeat;
+      background-position-y: no;
+      height: 16rem;
+      width: 100%; } }
 
 .art_img {
   background-image: url("../img/Allison.jpg");
@@ -108,6 +225,14 @@ body {
   height: 35rem;
   width: 100%;
   margin-bottom: auto; }
+  @media (min-width: 376px) and (max-width: 476px) {
+    .art_img {
+      background-size: contain;
+      background-repeat-x: no-repeat;
+      background-repeat-y: no-repeat;
+      background-position-y: no;
+      height: 40rem;
+      width: 100%; } }
 
 .photo_img {
   background-image: url("../img/BEACH-FAMILY005.jpg");
