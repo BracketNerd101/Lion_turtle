@@ -3,7 +3,7 @@ body {
   min-height: 120px; }
 
 .jumbotron {
-  margin-bottom: 0;
+  margin-bottom: auto;
   background-color: none !important; }
   @media (min-width: 370px) {
     .jumbotron {
@@ -15,6 +15,61 @@ body {
 .nav_logo {
   font-family: 'Montserrat Alternates', sans-serif; }
 
+.folio_top {
+  margin-top: auto;
+  margin-bottom: auto; }
+
+.flex_folio {
+  display: flex; }
+
+.client_flex {
+  margin-top: 5rem; }
+
+.img_clients {
+  vertical-align: middle;
+  display: inline-block;
+  width: 5rem; }
+
+.sales_intro_hero {
+  background-size: cover;
+  background-color: #ffffff;
+  height: 85vh;
+  width: auto;
+  margin-bottom: auto; }
+  .sales_intro_hero .corp-icon {
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: baseline; }
+  .sales_intro_hero .img_clients {
+    vertical-align: middle;
+    display: inline-block;
+    width: 5rem; }
+  .sales_intro_hero .hello_hero_text {
+    font-size: 20rem;
+    color: limegreen;
+    font-family: 'Montserrat Alternates', sans-serif; }
+    @media (min-width: 370px) {
+      .sales_intro_hero .hello_hero_text {
+        font-size: 4rem; } }
+    @media (min-width: 376px) {
+      .sales_intro_hero .hello_hero_text {
+        font-size: 6rem; } }
+    @media (min-width: 476px) {
+      .sales_intro_hero .hello_hero_text {
+        font-size: 8rem; } }
+    @media (min-width: 768px) {
+      .sales_intro_hero .hello_hero_text {
+        font-size: 10rem; } }
+    @media (min-width: 992px) {
+      .sales_intro_hero .hello_hero_text {
+        font-size: 14rem; } }
+    @media (min-width: 1200px) {
+      .sales_intro_hero .hello_hero_text {
+        font-size: 20rem; } }
+  .sales_intro_hero .display_margin {
+    margin-bottom: 1rem; }
+
 .hero_intro_img {
   background-size: cover;
   background-color: #ffffff;
@@ -24,13 +79,18 @@ body {
   display: flex;
   align-items: center;
   text-align: center; }
-  .hero_intro_img .hello_hero_bottom {
-    justify-content: center;
-    flex-direction: flex-end;
-    align-items: baseline; }
+
+.hero_intro_img {
+  background-size: cover;
+  background-color: #ffffff;
+  height: 96vh;
+  width: auto;
+  margin-bottom: auto;
+  display: flex;
+  align-items: center;
+  text-align: center; }
   .hero_intro_img .hello_hero_text {
     font-size: 20rem;
-    align-items: center;
     color: limegreen;
     text-align: center;
     font-family: 'Montserrat Alternates', sans-serif; }
