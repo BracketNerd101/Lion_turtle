@@ -25,15 +25,19 @@ body {
 .client_flex {
   margin-top: 5rem; }
 
+.client_title_font {
+  font-size: 0.7rem;
+  font-family: 'Lato', sans-serif; }
+
 .img_clients {
   vertical-align: middle;
   display: inline-block;
-  width: 5rem; }
+  width: 8.1rem; }
 
 .sales_intro_hero {
   background-size: cover;
   background-color: #ffffff;
-  height: 85vh;
+  height: inherit;
   width: auto;
   margin-bottom: auto; }
   .sales_intro_hero .corp-icon {
@@ -44,7 +48,9 @@ body {
   .sales_intro_hero .img_clients {
     vertical-align: middle;
     display: inline-block;
-    width: 5rem; }
+    width: 8.1rem;
+    margin-bottom: 20px;
+    margin-top: 20px; }
   .sales_intro_hero .hello_hero_text {
     font-size: 20rem;
     color: limegreen;

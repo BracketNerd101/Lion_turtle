@@ -43,10 +43,17 @@ min-height: 120px;
    margin-top: 5rem;
 }
 
+.client_title_font {
+
+    font-size: 0.7rem;
+    font-family: 'Lato', sans-serif;
+}
+
 .img_clients {
     vertical-align: middle;
     display: inline-block;
-    width: 5rem;
+    width: 8.1rem;
+   
 }
 
 .sales_intro_hero {
@@ -54,7 +61,7 @@ min-height: 120px;
     background-size: cover;
     // background-color: rgba(50,205,50 ,0.9);
     background-color:#ffffff;
-    height: 85vh;
+    height: inherit;
     width: auto;
     margin-bottom: auto;
     // display: flex;
@@ -71,7 +78,9 @@ min-height: 120px;
     .img_clients {
         vertical-align: middle;
         display: inline-block;
-        width: 5rem;
+        width: 8.1rem;
+        margin-bottom: 20px;
+        margin-top: 20px;
     }
 
     .hello_hero_text {

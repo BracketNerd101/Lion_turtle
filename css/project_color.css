@@ -19,6 +19,13 @@ body {
 .intro_header_about_style {
   font-family: 'Montserrat Alternates', sans-serif; }
 
+.compare_hero {
+  background-color: rgba(50, 205, 50, 0.9);
+  background-size: cover;
+  height: 40rem;
+  width: 100%;
+  margin-bottom: auto; }
+
 .bill_hero {
   background-image: url("../img/fb_Review_payment.jpg");
   background-size: cover;
