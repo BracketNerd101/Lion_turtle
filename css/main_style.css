@@ -26,13 +26,20 @@ body {
   margin-top: 5rem; }
 
 .client_title_font {
-  font-size: 0.8rem;
+  font-size: 1.1rem;
   font-family: 'Lato', sans-serif; }
 
 .img_clients {
   vertical-align: middle;
   display: inline-block;
   width: 5.1rem; }
+
+.fis_size_logo {
+  vertical-align: middle;
+  display: inline-block;
+  width: 5rem;
+  display: inline-block;
+  align-items: center; }
 
 .sales_intro_hero {
   background-size: cover;
@@ -130,7 +137,7 @@ body {
 .main_hero_intro_img {
   background-image: url("../img/mobile_small_custom.png");
   background-size: cover;
-  height: 40rem;
+  height: 35rem;
   width: auto;
   background-color: none; }
   @media (min-width: 370px) {
@@ -236,6 +243,21 @@ body {
   width: auto; }
   @media (min-width: 376px) and (max-width: 476px) {
     .world_hero_intro_img {
+      background-size: contain;
+      background-repeat-x: no-repeat;
+      background-repeat-y: no-repeat;
+      background-position-y: no;
+      height: 18rem;
+      width: 100%; } }
+
+.compare_port_img {
+  background-image: url("../img/cqt_ipad_2.jpg");
+  background-size: cover;
+  height: 40rem;
+  width: 100%;
+  margin-bottom: auto; }
+  @media (min-width: 376px) and (max-width: 476px) {
+    .compare_port_img {
       background-size: contain;
       background-repeat-x: no-repeat;
       background-repeat-y: no-repeat;
