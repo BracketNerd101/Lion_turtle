@@ -20,7 +20,7 @@ body {
   font-family: 'Montserrat Alternates', sans-serif; }
 
 .compare_hero {
-  background-color: rgba(50, 205, 50, 0.9);
+  background-image: url("../img/compare_banner.jpg");
   background-size: cover;
   height: 40rem;
   width: 100%;
