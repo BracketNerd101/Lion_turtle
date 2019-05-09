@@ -52,7 +52,7 @@ min-height: 120px;
 .img_clients {
     vertical-align: middle;
     display: inline-block;
-    width: 8.1rem;
+    width: 5.1rem;
    
 }
 
@@ -74,18 +74,51 @@ min-height: 120px;
         -ms-grid-row-align: center;
         align-self: baseline;
     }
-    
+
+
+    .list_parent {
+
+
+
+        .list_children {
+
+        
+        }
+
+    }
+
+    .fis_size_logo {
+
+        vertical-align: middle;
+        display: inline-block;
+        width: 5rem;
+        // margin-bottom: 20px;
+        // margin-top: 20px;
+        display: inline-block;
+        align-items: center;
+
+
+    }
+
     .img_clients {
         vertical-align: middle;
         display: inline-block;
-        width: 8.1rem;
-        margin-bottom: 20px;
-        margin-top: 20px;
+        width: 6rem;
+        // margin-bottom: 20px;
+        // margin-top: 20px;
+        display: inline-block;
+        align-items: center;
+
+        #florida_style {
+
+            margin-top: 5rem !important;
+        }
+        
     }
 
     .hello_hero_text {
 
-        font-size: 20rem;
+        font-size: 15rem;
         // align-items: center;
         color: rgba(50,205,50 ,1);
         // text-align: center;
@@ -158,7 +191,7 @@ min-height: 120px;
 
     .hello_hero_text {
 
-        font-size: 20rem;
+        font-size: 15rem;
         // align-items: center;
         color: rgba(50,205,50 ,1);
         text-align: center;

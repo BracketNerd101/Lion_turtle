@@ -32,7 +32,7 @@ body {
 .img_clients {
   vertical-align: middle;
   display: inline-block;
-  width: 8.1rem; }
+  width: 5.1rem; }
 
 .sales_intro_hero {
   background-size: cover;
@@ -45,14 +45,22 @@ body {
     -ms-flex-item-align: center;
     -ms-grid-row-align: center;
     align-self: baseline; }
+  .sales_intro_hero .fis_size_logo {
+    vertical-align: middle;
+    display: inline-block;
+    width: 5rem;
+    display: inline-block;
+    align-items: center; }
   .sales_intro_hero .img_clients {
     vertical-align: middle;
     display: inline-block;
-    width: 8.1rem;
-    margin-bottom: 20px;
-    margin-top: 20px; }
+    width: 6rem;
+    display: inline-block;
+    align-items: center; }
+    .sales_intro_hero .img_clients #florida_style {
+      margin-top: 5rem !important; }
   .sales_intro_hero .hello_hero_text {
-    font-size: 20rem;
+    font-size: 15rem;
     color: limegreen;
     font-family: 'Montserrat Alternates', sans-serif; }
     @media (min-width: 370px) {
@@ -96,7 +104,7 @@ body {
   align-items: center;
   text-align: center; }
   .hero_intro_img .hello_hero_text {
-    font-size: 20rem;
+    font-size: 15rem;
     color: limegreen;
     text-align: center;
     font-family: 'Montserrat Alternates', sans-serif; }

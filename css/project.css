@@ -1,23 +1,141 @@
-/*
-Errno::ENOENT: No such file or directory - scss/project_color.scss
+body {
+  scroll-behavior: smooth; }
 
-Backtrace:
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.6/lib/sass/plugin/compiler.rb:454:in `read'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.6/lib/sass/plugin/compiler.rb:454:in `update_stylesheet'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.6/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.6/lib/sass/plugin/compiler.rb:209:in `each'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.6/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.6/lib/sass/plugin/compiler.rb:294:in `watch'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.6/lib/sass/plugin.rb:109:in `method_missing'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.6/lib/sass/exec/sass_scss.rb:360:in `watch_or_update'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.6/lib/sass/exec/sass_scss.rb:51:in `process_result'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.6/lib/sass/exec/base.rb:52:in `parse'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.6/lib/sass/exec/base.rb:19:in `parse!'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.6/bin/sass:13:in `<top (required)>'
-/usr/local/bin/sass:23:in `load'
-/usr/local/bin/sass:23:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Errno::ENOENT: No such file or directory - scss/project_color.scss"; }
+.FLB {
+  color: #0091cc; }
+
+.RUN {
+  color: #f53269; }
+
+.FIS {
+  color: #83ba22; }
+
+.WB {
+  color: #dc3545; }
+
+.Motion {
+  color: #000000; }
+
+.intro_header_about_style {
+  font-family: 'Montserrat Alternates', sans-serif; }
+
+.compare_hero {
+  background-color: rgba(50, 205, 50, 0.9);
+  background-size: cover;
+  height: 40rem;
+  width: 100%;
+  margin-bottom: auto; }
+
+.bill_hero {
+  background-image: url("../img/fb_Review_payment.jpg");
+  background-size: cover;
+  height: 40rem;
+  width: 100%;
+  margin-bottom: auto; }
+
+.bank_hero {
+  background-image: url("../img/bank_mobile_white.png");
+  background-size: cover;
+  height: 35rem;
+  width: 100%;
+  margin-bottom: auto; }
+
+.provider_hero {
+  background-image: url("../img/Providers-flat-colors.jpg");
+  background-size: cover;
+  height: 35rem;
+  width: 100%;
+  margin-bottom: auto; }
+
+.fis_hero {
+  background-image: url("../img/fis_forum.jpg");
+  background-size: cover;
+  height: 35rem;
+  width: 100%;
+  margin-bottom: auto; }
+
+.run_hero {
+  background-image: url("../img/run-mobile-6s.jpg");
+  background-size: cover;
+  height: 35rem;
+  width: 100%;
+  margin-bottom: auto; }
+
+.member_hero {
+  background-image: url("../img/MWE opt macbook-air-at-coffee.jpg");
+  background-size: cover;
+  height: 35rem;
+  width: 100%;
+  margin-bottom: auto; }
+
+.motion_hero {
+  background-image: url("../img/camera_close_up.jpg");
+  background-size: cover;
+  height: 35rem;
+  width: 100%;
+  margin-bottom: auto; }
+
+.photo_hero {
+  background-image: url("../img/BEACH-FAMILY005.jpg");
+  background-size: cover;
+  height: 35rem;
+  width: 100%;
+  margin-bottom: auto; }
+
+.about_hero {
+  background-image: url("../img/about_arthur_img.JPG");
+  background-size: cover;
+  height: 35rem;
+  width: 100%;
+  margin-bottom: auto; }
+
+.art_hero {
+  background-image: url("../img/African_Woman.jpg");
+  background-size: cover;
+  height: 35rem;
+  width: 100%;
+  margin-bottom: auto; }
+
+.profile-img {
+  overflow: hidden;
+  background-image: url("../img/about_arthur_img.JPG");
+  background-size: cover;
+  height: 30rem;
+  width: 100%; }
+
+.profile-img-2 {
+  overflow: hidden;
+  background-image: url("../img/ace_yo.PNG");
+  background-size: cover;
+  height: 30rem;
+  width: 100%; }
+
+.profile-img-3 {
+  overflow: hidden;
+  background-image: url("../img/ace_frog.jpg");
+  background-size: cover;
+  height: 30rem;
+  width: 100%; }
+
+.profile-img-4 {
+  overflow: hidden;
+  background-image: url("../img/pdx_snow.jpg");
+  background-size: cover;
+  height: 30rem;
+  width: 100%; }
+
+#bg {
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 100%;
+  z-index: -3;
+  background-size: cover; }
+
+img {
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 100%;
+  height: auto;
+  -ms-interpolation-mode: bicubic; }
+
+/*# sourceMappingURL=project.css.map */
