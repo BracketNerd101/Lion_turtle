@@ -137,82 +137,9 @@ body {
 .main_hero_intro_img {
   background-image: url("../img/mobile_small_custom.png");
   background-size: cover;
-  height: 35rem;
-  width: auto;
+  height: 40rem;
+  width: 100%;
   background-color: none; }
-  @media (min-width: 370px) {
-    .main_hero_intro_img {
-      background-size: contain;
-      background-repeat-x: no-repeat;
-      background-repeat-y: no-repeat;
-      background-position-y: no;
-      height: 16rem;
-      width: auto; } }
-  @media (min-width: 376px) {
-    .main_hero_intro_img {
-      background-size: contain;
-      background-repeat-x: no-repeat;
-      background-repeat-y: no-repeat;
-      background-position-y: no;
-      height: 16rem;
-      width: auto; } }
-  @media (min-width: 476px) {
-    .main_hero_intro_img {
-      background-size: contain;
-      background-repeat-x: no-repeat;
-      background-repeat-y: no-repeat;
-      background-position-y: no;
-      height: 19rem;
-      width: auto; } }
-  @media (min-width: 476px) {
-    .main_hero_intro_img {
-      background-size: contain;
-      background-repeat-x: no-repeat;
-      background-repeat-y: no-repeat;
-      background-position-y: no;
-      height: 19rem;
-      width: auto; } }
-  @media (min-width: 656px) {
-    .main_hero_intro_img {
-      background-size: contain;
-      background-repeat-x: no-repeat;
-      background-repeat-y: no-repeat;
-      background-position-y: no;
-      height: 100vw;
-      width: auto; } }
-  @media (min-width: 768px) {
-    .main_hero_intro_img {
-      background-size: contain;
-      background-repeat-x: no-repeat;
-      background-repeat-y: no-repeat;
-      background-position-y: no;
-      height: 30rem;
-      width: auto; } }
-  @media (min-width: 992px) {
-    .main_hero_intro_img {
-      background-size: contain;
-      background-repeat-x: no-repeat;
-      background-repeat-y: no-repeat;
-      background-position-y: no;
-      height: 40rem;
-      width: auto; } }
-  @media (min-width: 1190px) {
-    .main_hero_intro_img {
-      background-size: contain;
-      background-repeat-x: no-repeat;
-      background-repeat-y: no-repeat;
-      background-position-y: no;
-      height: 40rem;
-      width: auto; } }
-  @media (min-width: 1200px) {
-    .main_hero_intro_img {
-      background-image: url("../img/mobile_small_custom.png");
-      background-size: cover;
-      background-repeat-x: no-repeat;
-      background-repeat-y: no-repeat;
-      height: 40rem;
-      width: auto;
-      background-color: none; } }
 
 .folio_label {
   opacity: 1;
