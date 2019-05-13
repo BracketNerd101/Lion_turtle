@@ -277,6 +277,9 @@ body {
 .large_sep {
   margin-top: 8rem; }
 
+.call_out_text {
+  font-family: 'Lato', sans-serif; }
+
 .large_sep_bottom {
   margin-bottom: 8rem; }
 
