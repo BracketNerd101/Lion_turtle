@@ -245,7 +245,7 @@ body {
       width: 100%; } }
 
 .art_img {
-  background-image: url("../img/Allison.jpg");
+  background-image: url("../img/paint_display.jpg");
   background-size: cover;
   height: 35rem;
   width: 100%;
@@ -258,39 +258,44 @@ body {
       background-position-y: no;
       height: 20rem;
       width: 100%; } }
-
-.photo_img {
-  background-image: url("../img/BEACH-FAMILY005.jpg");
-  background-size: cover;
-  height: 35rem;
-  width: 100%;
-  margin-bottom: auto; }
-
-.portfolio_frame {
-  height: 35rem;
-  width: 100%; }
-
-.portfolio_frame_secondary {
-  height: 35rem;
-  width: 100%; }
-
-.large_sep {
-  margin-top: 8rem; }
-
-.call_out_text {
-  font-family: 'Lato', sans-serif; }
-
-.large_sep_bottom {
-  margin-bottom: 8rem; }
-
-.small_sep {
-  margin-top: 3rem; }
-
-.small_sep_bottom {
-  margin-bottom: 3rem; }
-
-.clients_text {
-  font-family: 'Lato', sans-serif;
-  margin-bottom: 1rem; }
+  .art_img .art_img {
+    background-image: url("../img/paint_display.jpg");
+    background-size: cover;
+    height: 35rem;
+    width: 100%;
+    margin-bottom: auto; }
+    @media (min-width: 376px) and (max-width: 476px) {
+      .art_img .art_img {
+        background-size: contain;
+        background-repeat-x: no-repeat;
+        background-repeat-y: no-repeat;
+        background-position-y: no;
+        height: 20rem;
+        width: 100%; } }
+  .art_img .photo_img {
+    background-image: url("../img/BEACH-FAMILY005.jpg");
+    background-size: cover;
+    height: 35rem;
+    width: 100%;
+    margin-bottom: auto; }
+  .art_img .portfolio_frame {
+    height: 35rem;
+    width: 100%; }
+  .art_img .portfolio_frame_secondary {
+    height: 35rem;
+    width: 100%; }
+  .art_img .large_sep {
+    margin-top: 8rem; }
+  .art_img .call_out_text {
+    font-family: 'Lato', sans-serif; }
+  .art_img .large_sep_bottom {
+    margin-bottom: 8rem; }
+  .art_img .small_sep {
+    margin-top: 3rem; }
+  .art_img .small_sep_bottom {
+    margin-bottom: 3rem; }
+  .art_img .clients_text {
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 1rem; }
 
 /*# sourceMappingURL=main_style.css.map */
