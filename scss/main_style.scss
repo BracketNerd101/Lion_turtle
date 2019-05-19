@@ -85,8 +85,10 @@ body {
     align-items: center;
     #florida_style {
     margin-top: 5rem !important;
+     }
     }
-    }
+
+
     .hello_hero_text {
     font-size: 15rem;
     // align-items: center;
@@ -107,6 +109,8 @@ body {
     margin-bottom: 1rem; 
     }
     }
+
+
     .hero_intro_img {
     background-size: cover;
     // background-color: rgba(50,205,50 ,0.9);
@@ -118,6 +122,8 @@ body {
     align-items: center;
     text-align: center; 
     }
+
+
     .hero_intro_img {
     background-size: cover;
     // background-color: rgba(50,205,50 ,0.9);
@@ -128,28 +134,16 @@ body {
     display: flex;
     align-items: center;
     text-align: center;
+    }
+
+
     .hello_hero_bottom {
     // justify-content: center;
     // flex-direction: flex-end;
     // align-items: baseline;
     }
-    .hello_hero_text {
-    font-size: 15rem;
-    // align-items: center;
-    color: rgba(50,205,50 ,1);
-    text-align: center;
-    font-family: 'Montserrat Alternates', sans-serif;
-    @media (min-width: 370px) { font-size: 4rem; }
-    @media (min-width: 376px) { font-size: 6rem; }
-    @media (min-width: 476px) { font-size: 8rem; }
-    // Medium devices (tablets, 768px and up)
-    @media (min-width: 768px) { font-size: 10rem; }
-    // Large devices (desktops, 992px and up)
-    @media (min-width: 992px) { font-size: 14rem; }
-    // Extra large devices (large desktops, 1200px and up)
-    @media (min-width: 1200px) { font-size: 20rem; }
-    }
-    }
+    
+    
     .main_hero_intro_img {
     background-image: url('../img/mobile_small_custom.png');
     background-size: cover;
@@ -158,14 +152,20 @@ body {
     background-color: none;
     
     }
+
+
     .folio_label {
     opacity: 1;
     transition: 0.4s;
     }
+
+
     .folio_label:hover {
     opacity: 0.8;
     transition: 0.4s;
     }
+
+
     .motion_hero_intro_img {
     background-image: url('../img/camera_close_up.jpg');
     background-size: cover;
@@ -179,6 +179,8 @@ body {
     height: 18rem;
     width: 100%;  }
     }
+
+
     .world_hero_intro_img {
     background-image: url('../img/bank_iphone_sign_up.jpg');
     background-size: cover;
@@ -192,6 +194,8 @@ body {
     height: 18rem;
     width: 100%;  }
     }
+
+
     .compare_port_img {
     background-image: url('../img/cqt_ipad_2.jpg');
     background-size: cover;
@@ -206,6 +210,8 @@ body {
     height: 18rem;
     width: 100%;  }
     }
+
+
     .fis_port_img {
     background-image: url('../img/fis_close_global_search.jpg');
     background-size: cover;
@@ -220,6 +226,8 @@ body {
     height: 18rem;
     width: 100%;  }
     }
+
+
     .provider_img {
     background-image: url('../img/Providers-flat.png');
     background-size: cover;
@@ -227,6 +235,8 @@ body {
     width: 100%;
     margin-bottom: auto;
     }
+
+
     .run_img {
     background-image: url('../img/run-through-poster.png');
     background-size: cover;
@@ -241,6 +251,8 @@ body {
     height: 19rem;
     width: 100%;  }
     }
+
+
     .mwe_img {
     background-image: url('../img/MWE-FL-BLUE-Perspective-3.jpg');
     background-size: cover;
@@ -253,8 +265,11 @@ body {
     background-repeat-y: no-repeat;
     background-position-y: no;
     height: 16rem;
-    width: 100%;  }
+    width: 100%;  
+      }
     }
+
+
     .art_img {
     background-image: url('../img/paint_display.jpg');
     background-size: cover;
@@ -268,6 +283,7 @@ body {
     background-position-y: no;
     height: 20rem;
     width: 100%;  }
+
     .art_img {
     background-image: url('../img/paint_display.jpg');
     background-size: cover;
@@ -282,6 +298,8 @@ body {
     height: 20rem;
     width: 100%;  }
     }
+
+
     .photo_img {
     background-image: url('../img/BEACH-FAMILY005.jpg');
     background-size: cover;
@@ -289,33 +307,52 @@ body {
     width: 100%;
     margin-bottom: auto;
     }
+}
+
+
     .portfolio_frame {
     height: 35rem;
     width: 100%;
     }
+
+
     .portfolio_frame_secondary {
     height: 35rem;
     width: 100%;
     }
+
+
     .large_sep {
     margin-top: 8rem;
     }
+
+
     .small_callout {
     }
+
+
     .call_out_text {
     font-family: 'Lato', sans-serif;
     }
+
+
     .large_sep_bottom {
     margin-bottom: 8rem;
     }
+
+
     .small_sep {
     margin-top: 3rem;
     }
+
+
     .small_sep_bottom {
     margin-bottom: 3rem;
     }
+
+
     .clients_text {
     font-family: 'Lato', sans-serif;
     margin-bottom: 1rem;
     }
-}
+
