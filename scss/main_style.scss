@@ -8,6 +8,11 @@ body {
     .jumbotron {
     margin-bottom: auto;
     background-color: none !important ;
+    a {
+
+        text-decoration: none;
+
+    }
     @media (min-width: 370px) {
     background-color: none;
     }
@@ -406,7 +411,8 @@ body {
         width: 100%;
         font-family: 'Montserrat Alternates', sans-serif;
         font-size: 3.0rem;
-        text-shadow: #767676 2px;
+        text-shadow:  #a0a0a0 3px 2px;
+        text-decoration: none;
 
         @media (min-width: 376px) and (max-width: 476px)
     {   font-size: 1.9rem;  
@@ -423,7 +429,8 @@ body {
         width: 100%;
         font-family: 'Montserrat Alternates', sans-serif;
         font-size: 3.0rem;
-        text-shadow: #767676 2px;
+        text-shadow: #a0a0a0 3px 2px;
+        text-decoration: none;
 
         @media (min-width: 376px) and (max-width: 476px)
     {    font-size: 1.9rem; 
