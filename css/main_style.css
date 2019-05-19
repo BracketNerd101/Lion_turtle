@@ -233,6 +233,21 @@ body {
       height: 16rem;
       width: 100%; } }
 
+.why_blue_img {
+  background-image: url("../img/fl_why_blue_2.jpg");
+  background-size: cover;
+  height: 35rem;
+  width: 100%;
+  margin-bottom: auto; }
+  @media (min-width: 376px) and (max-width: 476px) {
+    .why_blue_img {
+      background-size: contain;
+      background-repeat-x: no-repeat;
+      background-repeat-y: no-repeat;
+      background-position-y: no;
+      height: 16rem;
+      width: 100%; } }
+
 .art_img {
   background-image: url("../img/paint_display.jpg");
   background-size: cover;
