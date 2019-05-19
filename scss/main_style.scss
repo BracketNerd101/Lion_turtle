@@ -2,7 +2,7 @@ body {
     margin: 0;
     min-height: 120px;
     // font-family: 'Lato', sans-serif;
-    }
+     }
     // font-family: 'Montserrat Alternates', sans-serif;
     // font-family: 'Lato', sans-serif;
     .jumbotron {
@@ -17,26 +17,32 @@ body {
     }
     .nav_logo {
     font-family: 'Montserrat Alternates', sans-serif;
-    }
+     }
+
     .folio_top {
     margin-top: auto;
     margin-bottom: auto;
-    }
+     }
+
     .flex_folio {
     display: flex;
-    }
+     }
+
     .client_flex {
     margin-top: 5rem;
-    }
+     }
+
     .client_title_font {
     font-size: 1.1rem;
     font-family: 'Lato', sans-serif;
-    }
+     }
+
     .img_clients {
     vertical-align: middle;
     display: inline-block;
     width: 5.1rem;
-    }
+     }
+
     .fis_size_logo {
     vertical-align: middle;
     display: inline-block;
@@ -64,8 +70,10 @@ body {
     }
     .list_parent {
     .list_children {
+    
+     }
     }
-    }
+
     .fis_size_logo {
     vertical-align: middle;
     display: inline-block;
@@ -107,8 +115,8 @@ body {
     }
     .display_margin {
     margin-bottom: 1rem; 
-    }
-    }
+     }
+     }
 
 
     .hero_intro_img {
@@ -157,12 +165,14 @@ body {
     .folio_label {
     opacity: 1;
     transition: 0.4s;
+    text-decoration: none;
     }
 
 
     .folio_label:hover {
     opacity: 0.8;
     transition: 0.4s;
+    text-decoration: none;
     }
 
 
@@ -295,12 +305,8 @@ body {
     height: 20rem;
     width: 100%;  
 
-}
-}
-
-
-
-
+    }
+  }
 
     .portfolio_frame {
     height: 35rem;
@@ -309,14 +315,17 @@ body {
 
 
     .portfolio_frame_secondary {
-    height: 35rem;
+    
+        height: 35rem;
     width: 100%;
     }
 
 
     .large_sep {
-    margin-top: 8rem;
-    }
+        
+        margin-top: 8rem;
+
+       }
 
 
     .small_callout {
@@ -342,8 +351,66 @@ body {
     margin-bottom: 3rem;
     }
 
+    .small_left {
+        margin-left: 3rem;
+        
+    }
+    
+    
+        .small_right{
+        margin-right: 3rem;
+        
+    }
+
+    .large_left {
+        margin-left: 8rem;
+        
+    }
+    
+    
+        .large_right {
+        margin-right: 8rem;
+        
+    }
+
+
+
 
     .clients_text {
     font-family: 'Lato', sans-serif;
     margin-bottom: 1rem;
+    }
+
+
+    .label_proj {
+
+        opacity: 0;
+        transition: 0.3s;
+        height: 100%;
+        width: 100%;
+        font-family: 'Montserrat Alternates', sans-serif;
+        font-size: 3.0rem;
+        text-shadow: #767676 2px;
+
+        @media (min-width: 376px) and (max-width: 476px)
+    {   font-size: 1.9rem;  
+      }
+
+
+    }
+
+    .label_proj:hover {
+
+        opacity: 1;
+        transition: 0.3s;
+        height: 100%;
+        width: 100%;
+        font-family: 'Montserrat Alternates', sans-serif;
+        font-size: 3.0rem;
+        text-shadow: #767676 2px;
+
+        @media (min-width: 376px) and (max-width: 476px)
+    {    font-size: 1.9rem; 
+      }
+        
     }

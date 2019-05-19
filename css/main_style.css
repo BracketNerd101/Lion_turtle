@@ -120,11 +120,13 @@ body {
 
 .folio_label {
   opacity: 1;
-  transition: 0.4s; }
+  transition: 0.4s;
+  text-decoration: none; }
 
 .folio_label:hover {
   opacity: 0.8;
-  transition: 0.4s; }
+  transition: 0.4s;
+  text-decoration: none; }
 
 .motion_hero_intro_img {
   background-image: url("../img/camera_close_up.jpg");
@@ -269,8 +271,44 @@ body {
 .small_sep_bottom {
   margin-bottom: 3rem; }
 
+.small_left {
+  margin-left: 3rem; }
+
+.small_right {
+  margin-right: 3rem; }
+
+.large_left {
+  margin-left: 8rem; }
+
+.large_right {
+  margin-right: 8rem; }
+
 .clients_text {
   font-family: 'Lato', sans-serif;
   margin-bottom: 1rem; }
+
+.label_proj {
+  opacity: 0;
+  transition: 0.3s;
+  height: 100%;
+  width: 100%;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 3.0rem;
+  text-shadow: #767676 2px; }
+  @media (min-width: 376px) and (max-width: 476px) {
+    .label_proj {
+      font-size: 1.9rem; } }
+
+.label_proj:hover {
+  opacity: 1;
+  transition: 0.3s;
+  height: 100%;
+  width: 100%;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 3.0rem;
+  text-shadow: #767676 2px; }
+  @media (min-width: 376px) and (max-width: 476px) {
+    .label_proj:hover {
+      font-size: 1.9rem; } }
 
 /*# sourceMappingURL=main_style.css.map */
