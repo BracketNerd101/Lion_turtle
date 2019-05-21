@@ -5,6 +5,8 @@ body {
 .jumbotron {
   margin-bottom: auto;
   background-color: none !important; }
+  .jumbotron h3 {
+    text-decoration: none; }
   .jumbotron a {
     text-decoration: none; }
   @media (min-width: 370px) {
@@ -307,8 +309,6 @@ body {
 .label_proj {
   opacity: 0;
   transition: 0.3s;
-  height: 100%;
-  width: 100%;
   font-family: 'Montserrat Alternates', sans-serif;
   font-size: 3.0rem;
   text-shadow: #a0a0a0 3px 2px;

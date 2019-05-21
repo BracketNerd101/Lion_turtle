@@ -9,7 +9,12 @@ body {
     .jumbotron {
     margin-bottom: auto;
     background-color: none !important ;
-    a {
+    h3 {
+
+        text-decoration: none;
+
+    }
+    a  {
 
         text-decoration: none;
 
@@ -408,8 +413,8 @@ body {
 
         opacity: 0;
         transition: 0.3s;
-        height: 100%;
-        width: 100%;
+        // height: 100%;
+        // width: 100%;
         font-family: 'Montserrat Alternates', sans-serif;
         font-size: 3.0rem;
         text-shadow:  #a0a0a0 3px 2px;
