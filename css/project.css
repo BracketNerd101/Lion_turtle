@@ -96,6 +96,20 @@ body {
   width: 100%;
   margin-bottom: auto; }
 
+.des_system_img {
+  background-image: url("../img/");
+  background-size: cover;
+  height: 35rem;
+  width: auto; }
+  @media (min-width: 376px) and (max-width: 476px) {
+    .des_system_img {
+      background-size: contain;
+      background-repeat-x: no-repeat;
+      background-repeat-y: no-repeat;
+      background-position-y: no;
+      height: 18rem;
+      width: 100%; } }
+
 .profile-img {
   overflow: hidden;
   background-image: url("../img/about_arthur_img.JPG");

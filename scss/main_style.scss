@@ -6,7 +6,7 @@ body {
      }
     // font-family: 'Montserrat Alternates', sans-serif;
     // font-family: 'Lato', sans-serif;
-    .jumbotron {
+    .jumbotron .jumbotron-fluid {
     margin-bottom: auto;
     background-color: none !important ;
 
@@ -16,24 +16,36 @@ body {
     }
     h3 {
 
-        text-decoration: none;
+        text-decoration: none !important;
 
     }
-    a  {
+    a:hover  {
 
-        text-decoration: none;
-
-    }
-    @media (min-width: 370px) {
-    background-color: none;
-    }
-    @media (min-width: 376px) {
-    background-color: none;
+        text-decoration: none !important;
     }
     }
     .nav_logo {
     font-family: 'Montserrat Alternates', sans-serif;
      }
+
+    .thumbnail_tile  {
+        text-decoration: none;
+
+        a:hover {
+            text-decoration: none;
+
+        }
+
+        h3 {
+            text-decoration: none;
+
+        }
+    }
+
+#thumbnail_tile {
+
+    text-decoration: none;
+}
 
     .folio_top {
     margin-top: auto;
@@ -49,7 +61,7 @@ body {
      }
 
     .client_title_font {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     font-family: 'Lato', sans-serif;
      }
 
@@ -268,6 +280,7 @@ body {
     background-size: cover;
     height: 35rem;
     width: 100%;
+    text-decoration: none;
     margin-bottom: auto;
     @media (min-width: 376px) and (max-width: 476px)
     { background-size: contain;
@@ -421,9 +434,16 @@ body {
         font-family: 'Montserrat Alternates', sans-serif;
         font-size: 3.0rem;
         text-shadow:  #a0a0a0 3px 2px;
-        
+
+        text-decoration: none;
+        text-decoration: none;
+
         h3 {
+
             text-decoration: none;
+
+            
+
         }
 
         @media (min-width: 376px) and (max-width: 476px)
@@ -446,7 +466,23 @@ body {
 
         @media (min-width: 376px) and (max-width: 476px)
     {    font-size: 1.9rem; 
+      
       }
         
     }
 
+
+.thumbnail_tile {
+
+    .jumbotron {
+
+        .label_proj:hover {
+            text-decoration: none;
+        
+        }
+
+
+    }
+
+
+}

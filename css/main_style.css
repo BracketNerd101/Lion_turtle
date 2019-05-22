@@ -2,24 +2,28 @@ body {
   margin: 0;
   min-height: 120px; }
 
-.jumbotron {
+.jumbotron .jumbotron-fluid {
   margin-bottom: auto;
   background-color: none !important; }
-  .jumbotron .label_proj {
+  .jumbotron .jumbotron-fluid .label_proj {
     text-decoration: none; }
-  .jumbotron h3 {
-    text-decoration: none; }
-  .jumbotron a {
-    text-decoration: none; }
-  @media (min-width: 370px) {
-    .jumbotron {
-      background-color: none; } }
-  @media (min-width: 376px) {
-    .jumbotron {
-      background-color: none; } }
+  .jumbotron .jumbotron-fluid h3 {
+    text-decoration: none !important; }
+  .jumbotron .jumbotron-fluid a:hover {
+    text-decoration: none !important; }
 
 .nav_logo {
   font-family: 'Montserrat Alternates', sans-serif; }
+
+.thumbnail_tile {
+  text-decoration: none; }
+  .thumbnail_tile a:hover {
+    text-decoration: none; }
+  .thumbnail_tile h3 {
+    text-decoration: none; }
+
+#thumbnail_tile {
+  text-decoration: none; }
 
 .folio_top {
   margin-top: auto;
@@ -32,7 +36,7 @@ body {
   margin-top: 5rem; }
 
 .client_title_font {
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   font-family: 'Lato', sans-serif; }
 
 .img_clients {
@@ -204,6 +208,7 @@ body {
   background-size: cover;
   height: 35rem;
   width: 100%;
+  text-decoration: none;
   margin-bottom: auto; }
   @media (min-width: 376px) and (max-width: 476px) {
     .run_img {
@@ -313,7 +318,9 @@ body {
   transition: 0.3s;
   font-family: 'Montserrat Alternates', sans-serif;
   font-size: 3.0rem;
-  text-shadow: #a0a0a0 3px 2px; }
+  text-shadow: #a0a0a0 3px 2px;
+  text-decoration: none;
+  text-decoration: none; }
   .label_proj h3 {
     text-decoration: none; }
   @media (min-width: 376px) and (max-width: 476px) {
@@ -332,5 +339,8 @@ body {
   @media (min-width: 376px) and (max-width: 476px) {
     .label_proj:hover {
       font-size: 1.9rem; } }
+
+.thumbnail_tile .jumbotron .label_proj:hover {
+  text-decoration: none; }
 
 /*# sourceMappingURL=main_style.css.map */
