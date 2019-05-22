@@ -47,6 +47,13 @@ body {
   width: 100%;
   margin-bottom: auto; }
 
+.kit_hero {
+  background-image: url("../img/kit_promo_card.png");
+  background-size: cover;
+  height: 35rem;
+  width: 100%;
+  margin-bottom: auto; }
+
 .fis_hero {
   background-image: url("../img/fis_forum.jpg");
   background-size: cover;
