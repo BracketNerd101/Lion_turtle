@@ -5,6 +5,8 @@ body {
 .jumbotron .jumbotron-fluid {
   margin-bottom: auto;
   background-color: none !important; }
+  .jumbotron .jumbotron-fluid #flb_bg {
+    background-color: #0091cc !important; }
   .jumbotron .jumbotron-fluid .label_proj {
     text-decoration: none; }
   .jumbotron .jumbotron-fluid h3 {
@@ -349,5 +351,8 @@ body {
 
 .thumbnail_tile .jumbotron .label_proj:hover {
   text-decoration: none; }
+
+#flb_bg {
+  background-color: #FIS !important; }
 
 /*# sourceMappingURL=main_style.css.map */

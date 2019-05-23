@@ -13,29 +13,30 @@ $WB: #dc3545;
 
 $Motion: #000000; 
 
+
 .FLB {
 
-    color:#0091cc
+    color:#0091cc;
 }
 
 .RUN {
 
-    color:#f53269   
+    color:#f53269 ;  
 }
 
 .FIS {
 
-    color:#83ba22  
+    color:#83ba22  ;
 }
 
 .WB {
 
-    color:#dc3545    
+    color:#dc3545 ;   
 }
 
 .Motion {
 
-    color:#000000   
+    color:#000000 ;  
 
 }
 
@@ -46,6 +47,8 @@ $Motion: #000000;
 
     font-family: 'Montserrat Alternates', sans-serif;
 }
+
+
 
 .compare_hero {
 
@@ -163,9 +166,9 @@ $Motion: #000000;
     margin-bottom: auto;
 }
 
-.des_system_img {
+.des_system_hero {
 
-    background-image: url('../img/');
+    background-image: url('../img/sprinke.jpg');
     background-size: cover;
     height: 35rem;
     width: auto;
@@ -231,4 +234,14 @@ img {
     -ms-interpolation-mode: bicubic;
 }
 
+.project_style_font {
+
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-shadow: #636363 2px 2px;
+}
+
+ #flb_bg {
+
+    background-color:#0091cc !important;
+}
 

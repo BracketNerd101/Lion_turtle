@@ -103,13 +103,13 @@ body {
   width: 100%;
   margin-bottom: auto; }
 
-.des_system_img {
-  background-image: url("../img/");
+.des_system_hero {
+  background-image: url("../img/sprinke.jpg");
   background-size: cover;
   height: 35rem;
   width: auto; }
   @media (min-width: 376px) and (max-width: 476px) {
-    .des_system_img {
+    .des_system_hero {
       background-size: contain;
       background-repeat-x: no-repeat;
       background-repeat-y: no-repeat;
@@ -158,5 +158,12 @@ img {
   max-width: 100%;
   height: auto;
   -ms-interpolation-mode: bicubic; }
+
+.project_style_font {
+  font-family: 'Montserrat Alternates', sans-serif;
+  text-shadow: #636363 2px 2px; }
+
+#flb_bg {
+  background-color: #0091cc !important; }
 
 /*# sourceMappingURL=project_color.css.map */

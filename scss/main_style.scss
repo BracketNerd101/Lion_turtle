@@ -10,6 +10,11 @@ body {
     margin-bottom: auto;
     background-color: none !important ;
 
+    #flb_bg {
+
+        background-color:#0091cc !important;
+    }
+
     .label_proj{
 
         text-decoration: none;
@@ -83,19 +88,13 @@ body {
     .sales_intro_hero {
     background-size: cover;
     // background-color: rgba(50,205,50 ,0.9);
-    background-color:#ffffff;
+    // background-color:#ffffff;
     height: inherit;
     width: auto;
     margin-bottom: auto;
     // display: flex;
     // align-items: center;
     // text-align: center; 
-    .corp-icon {
-    -webkit-align-self: center;
-    -ms-flex-item-align: center;
-    -ms-grid-row-align: center;
-    align-self: baseline;
-    }
     .list_parent {
     .list_children {
     
@@ -129,6 +128,8 @@ body {
     font-size: 15rem;
     // align-items: center;
     color: rgba(50,205,50 ,1);
+    
+
     // text-align: center;
     font-family: 'Montserrat Alternates', sans-serif;
     @media (min-width: 370px) { font-size: 4rem; }
@@ -482,18 +483,21 @@ body {
         
     }
 
+#flb_bg {
 
-.thumbnail_tile {
+    background-color: $FIS !important;
+}
 
-    .jumbotron {
+#sales_intro_hero {
 
-        .label_proj:hover {
-            text-decoration: none;
-        
-        }
-
-
-    }
+    background-image: url('../img/run-mobile-6s.jpg');
+    // background-color:  rgba(50, 205, 50, 0.9);;
+    background-size: cover;
+    width: auto;
+    height: 50rem;
+    z-index: 7456;
 
 
 }
+
+
