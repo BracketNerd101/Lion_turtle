@@ -196,7 +196,6 @@ body {
   background-size: cover;
   background-color: #ffffff;
   height: inherit;
-  padding-left: 10rem;
   margin-bottom: auto; }
   .sales_intro_hero .fis_size_logo {
     vertical-align: middle;
@@ -213,15 +212,15 @@ body {
     .sales_intro_hero .img_clients #florida_style {
       margin-top: 5rem !important; }
   .sales_intro_hero .hello_hero_text {
-    font-size: 3rem;
+    font-size: 5rem;
     color: limegreen;
     font-family: 'Montserrat Alternates', sans-serif; }
     @media (min-width: 370px) {
       .sales_intro_hero .hello_hero_text {
-        font-size: 3rem; } }
+        font-size: 5rem; } }
     @media (min-width: 376px) {
       .sales_intro_hero .hello_hero_text {
-        font-size: 3rem; } }
+        font-size: 5rem; } }
     @media (min-width: 476px) {
       .sales_intro_hero .hello_hero_text {
         font-size: 3rem; } }

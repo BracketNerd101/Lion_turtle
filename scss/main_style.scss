@@ -265,7 +265,7 @@ body {
     // background-image: url('../img/fl_bill_mobile_flat.jpg');
     background-color:#ffffff;
     height: inherit;
-    padding-left: 10rem;
+    // padding-left: 10rem;
     margin-bottom: auto;
     // display: flex;
     // align-items: center;
@@ -300,15 +300,15 @@ body {
 
 
     .hello_hero_text {
-    font-size: 3rem;
+    font-size: 5rem;
     // align-items: center;
     color: rgba(50,205,50 ,1);
     
 
     // text-align: center;
     font-family: 'Montserrat Alternates', sans-serif;
-    @media (min-width: 370px) { font-size: 3rem; }
-    @media (min-width: 376px) { font-size: 3rem; }
+    @media (min-width: 370px) { font-size: 5rem; }
+    @media (min-width: 376px) { font-size: 5rem; }
     @media (min-width: 476px) { font-size: 3rem; }
     // Medium devices (tablets, 768px and up)
     @media (min-width: 768px) { font-size: 4rem; }
