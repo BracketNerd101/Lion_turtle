@@ -27,6 +27,145 @@ body {
 #thumbnail_tile {
   text-decoration: none; }
 
+.head_turn .main_hero_intro_img {
+  background-image: url("../img/mobile_small_custom.png");
+  background-size: cover;
+  height: 9rem;
+  width: 100%;
+  background-color: none; }
+.head_turn .motion_hero_intro_img {
+  background-image: url("../img/camera_close_up.jpg");
+  background-size: cover;
+  height: 9rem;
+  width: 100%; }
+  @media (min-width: 376px) and (max-width: 476px) {
+    .head_turn .motion_hero_intro_img {
+      background-size: contain;
+      background-repeat-x: no-repeat;
+      background-repeat-y: no-repeat;
+      background-position-y: no;
+      height: 9rem;
+      width: 100%; } }
+.head_turn .world_hero_intro_img {
+  background-image: url("../img/bank_iphone_sign_up.jpg");
+  background-size: cover;
+  height: 9rem;
+  width: auto; }
+  @media (min-width: 376px) and (max-width: 476px) {
+    .head_turn .world_hero_intro_img {
+      background-size: contain;
+      background-repeat-x: no-repeat;
+      background-repeat-y: no-repeat;
+      background-position-y: no;
+      height: 9rem;
+      width: 100%; } }
+.head_turn .compare_port_img {
+  background-image: url("../img/cqt_ipad_2.jpg");
+  background-size: cover;
+  height: 20rem;
+  width: 100%;
+  margin-bottom: auto; }
+  @media (min-width: 376px) and (max-width: 476px) {
+    .head_turn .compare_port_img {
+      background-size: contain;
+      background-repeat-x: no-repeat;
+      background-repeat-y: no-repeat;
+      background-position-y: no;
+      height: 18rem;
+      width: 100%; } }
+.head_turn .fis_port_img {
+  background-image: url("../img/fis_close_global_search.jpg");
+  background-size: cover;
+  height: 35rem;
+  width: 100%;
+  margin-bottom: auto; }
+  @media (min-width: 376px) and (max-width: 476px) {
+    .head_turn .fis_port_img {
+      background-size: contain;
+      background-repeat-x: no-repeat;
+      background-repeat-y: no-repeat;
+      background-position-y: no;
+      height: 18rem;
+      width: 100%; } }
+.head_turn .provider_img {
+  background-image: url("../img/Providers-flat.png");
+  background-size: cover;
+  height: 35rem;
+  width: 100%;
+  margin-bottom: auto; }
+.head_turn .system_img {
+  background-image: url("../img/kit_step_bars.png");
+  background-size: cover;
+  height: 35rem;
+  width: 100%;
+  margin-bottom: auto; }
+.head_turn .run_img {
+  background-image: url("../img/run-mobile-6s.jpg");
+  background-size: cover;
+  height: 35rem;
+  width: 100%;
+  text-decoration: none;
+  margin-bottom: auto; }
+  @media (min-width: 376px) and (max-width: 476px) {
+    .head_turn .run_img {
+      background-size: contain;
+      background-repeat-x: no-repeat;
+      background-repeat-y: no-repeat;
+      background-position-y: no;
+      height: 19rem;
+      width: 100%; } }
+.head_turn .photo_img {
+  background-image: url("../img/BEACH-FAMILY005.jpg");
+  background-size: cover;
+  height: 35rem;
+  width: 100%;
+  margin-bottom: auto;
+  background-repeat-x: no-repeat;
+  background-repeat-y: no-repeat;
+  background-position-y: no; }
+.head_turn .mwe_img {
+  background-image: url("../img/MWE-FL-BLUE-Perspective-3.jpg");
+  background-size: cover;
+  height: 35rem;
+  width: 100%;
+  margin-bottom: auto; }
+  @media (min-width: 376px) and (max-width: 476px) {
+    .head_turn .mwe_img {
+      background-size: contain;
+      background-repeat-x: no-repeat;
+      background-repeat-y: no-repeat;
+      background-position-y: no;
+      height: 16rem;
+      width: 100%; } }
+.head_turn .why_blue_img {
+  background-image: url("../img/fl_why_blue_2.jpg");
+  background-size: cover;
+  height: 35rem;
+  width: 100%;
+  margin-bottom: auto; }
+  @media (min-width: 376px) and (max-width: 476px) {
+    .head_turn .why_blue_img {
+      background-size: contain;
+      background-repeat-x: no-repeat;
+      background-repeat-y: no-repeat;
+      background-position-y: no;
+      height: 16rem;
+      width: 100%; } }
+.head_turn .art_img {
+  background-image: url("../img/paint_display.jpg");
+  background-size: cover;
+  height: 35rem;
+  width: 100%;
+  margin-bottom: auto; }
+  @media (min-width: 376px) and (max-width: 476px) {
+    .head_turn .art_img {
+      background-size: contain;
+      background-repeat-x: no-repeat;
+      background-repeat-y: no-repeat;
+      background-position-y: no;
+      height: 20rem;
+      width: 100%; } }
+
 .folio_top {
   margin-top: auto;
   margin-bottom: auto; }
@@ -57,13 +196,8 @@ body {
   background-size: cover;
   background-color: #ffffff;
   height: inherit;
-  width: auto;
+  padding-left: 10rem;
   margin-bottom: auto; }
-  .sales_intro_hero .corp-icon {
-    -webkit-align-self: center;
-    -ms-flex-item-align: center;
-    -ms-grid-row-align: center;
-    align-self: baseline; }
   .sales_intro_hero .fis_size_logo {
     vertical-align: middle;
     display: inline-block;
@@ -79,7 +213,7 @@ body {
     .sales_intro_hero .img_clients #florida_style {
       margin-top: 5rem !important; }
   .sales_intro_hero .hello_hero_text {
-    font-size: 15rem;
+    font-size: 5rem;
     color: limegreen;
     font-family: 'Montserrat Alternates', sans-serif; }
     @media (min-width: 370px) {
@@ -115,7 +249,7 @@ body {
 
 .hero_intro_img {
   background-size: cover;
-  background-color: #ffffff;
+  background-image: url("../img/paint_display.jpg");
   height: 96vh;
   width: auto;
   margin-bottom: auto;
@@ -349,10 +483,11 @@ body {
     .label_proj:hover {
       font-size: 1.9rem; } }
 
-.thumbnail_tile .jumbotron .label_proj:hover {
-  text-decoration: none; }
-
-#flb_bg {
-  background-color: #FIS !important; }
+.about_hero {
+  background-image: url("../img/about_arthur_img.JPG");
+  background-size: cover;
+  height: 35rem;
+  width: 100%;
+  margin-bottom: auto; }
 
 /*# sourceMappingURL=main_style.css.map */
