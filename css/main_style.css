@@ -213,27 +213,27 @@ body {
     .sales_intro_hero .img_clients #florida_style {
       margin-top: 5rem !important; }
   .sales_intro_hero .hello_hero_text {
-    font-size: 5rem;
+    font-size: 3rem;
     color: limegreen;
     font-family: 'Montserrat Alternates', sans-serif; }
     @media (min-width: 370px) {
       .sales_intro_hero .hello_hero_text {
-        font-size: 4rem; } }
+        font-size: 3rem; } }
     @media (min-width: 376px) {
       .sales_intro_hero .hello_hero_text {
-        font-size: 6rem; } }
+        font-size: 3rem; } }
     @media (min-width: 476px) {
       .sales_intro_hero .hello_hero_text {
-        font-size: 8rem; } }
+        font-size: 3rem; } }
     @media (min-width: 768px) {
       .sales_intro_hero .hello_hero_text {
-        font-size: 10rem; } }
+        font-size: 4rem; } }
     @media (min-width: 992px) {
       .sales_intro_hero .hello_hero_text {
-        font-size: 14rem; } }
+        font-size: 4rem; } }
     @media (min-width: 1200px) {
       .sales_intro_hero .hello_hero_text {
-        font-size: 20rem; } }
+        font-size: 4rem; } }
   .sales_intro_hero .display_margin {
     margin-bottom: 1rem; }
 
