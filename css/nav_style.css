@@ -15,7 +15,12 @@
   border: none; }
 
 .nav_header_color {
-  background-color: rgba(50, 205, 50, 0.9); }
+  background-color: rgba(253, 253, 253, 0.651);
+  color: limegreen; }
+  .nav_header_color .navbar-brand {
+    color: limegreen; }
+  .nav_header_color .nav_logo a {
+    color: limegreen; }
 
 .off_nav_layer {
   z-index: 9000000000000000; }

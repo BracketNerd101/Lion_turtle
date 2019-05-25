@@ -15,7 +15,8 @@ body {
     text-decoration: none !important; }
 
 .nav_logo {
-  font-family: 'Montserrat Alternates', sans-serif; }
+  font-family: 'Montserrat Alternates', sans-serif;
+  color: limegreen; }
 
 .thumbnail_tile {
   text-decoration: none; }
