@@ -429,6 +429,21 @@ body {
     width: 100%;  }
     }
 
+    .tc_port_img {
+        background-image: url('../img/tc_desktop.png');
+        background-size: cover;
+        height: 35rem;
+        width: 100%;
+        margin-bottom: auto;
+        @media (min-width: 376px) and (max-width: 476px)
+        { background-size: contain;
+        background-repeat-x: no-repeat;
+        background-repeat-y: no-repeat;
+        background-position-y: no;
+        height: 18rem;
+        width: 100%;  }
+        }
+
 
     .fis_port_img {
     background-image: url('../img/fis_close_global_search.jpg');
