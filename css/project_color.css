@@ -96,6 +96,13 @@ body {
   width: 100%;
   margin-bottom: auto; }
 
+.toyota_hero {
+  background-image: url("../img/tc_tablet_empty.png");
+  background-size: cover;
+  height: 35rem;
+  width: 100%;
+  margin-bottom: auto; }
+
 .art_hero {
   background-image: url("../img/paint_display.jpg");
   background-size: cover;
