@@ -5,13 +5,7 @@
   height: 25rem;
   width: auto;
   background-size: cover;
-  background-image: url("../img/cqt_ipad_2.jpg"); }
-
-.port_1 {
-  height: 25rem;
-  width: auto;
-  background-size: cover;
-  background-image: url("../img/cqt_ipad_2.jpg"); }
+  background-image: url("../img/mobile_small_custom.png"); }
 
 .port_2 {
   height: 25rem;
@@ -20,21 +14,25 @@
   background-image: url("../img/cqt_ipad_2.jpg"); }
 
 .port_3 {
-  height: 25rem;
+  height: 35rem;
   width: auto;
   background-size: cover;
   background-image: url("../img/cqt_ipad_2.jpg"); }
 
 .port_4 {
-  height: 25rem;
+  height: 35rem;
   width: auto;
   background-size: cover;
   background-image: url("../img/cqt_ipad_2.jpg"); }
 
 .port_5 {
-  height: 25rem;
+  height: 35rem;
   width: auto;
   background-size: cover;
   background-image: url("../img/cqt_ipad_2.jpg"); }
+
+.proj_notes {
+  height: 25rem;
+  width: auto; }
 
 /*# sourceMappingURL=leap.css.map */
