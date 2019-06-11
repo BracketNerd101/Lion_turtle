@@ -213,6 +213,7 @@ body {
     .sales_intro_hero .img_clients #florida_style {
       margin-top: 5rem !important; }
   .sales_intro_hero .hello_hero_text {
+    padding-top: 60vh;
     font-size: 5rem;
     color: limegreen;
     font-family: 'Montserrat Alternates', sans-serif; }

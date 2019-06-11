@@ -139,7 +139,7 @@ body {
     
         .system_img {
     
-            background-image: url('../img/kit_step_bars.png');
+        background-image: url('../img/kit_step_bars.png');
         background-size: cover;
         height: 35rem;
         width: 100%;
@@ -304,6 +304,8 @@ body {
 
 
     .hello_hero_text {
+    
+    padding-top: 60vh;    
     font-size: 5rem;
     // align-items: center;
     color: rgba(50,205,50 ,1);
