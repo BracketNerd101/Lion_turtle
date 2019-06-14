@@ -17,13 +17,15 @@
       <link rel="stylesheet" type="text/css" href="scss/main_style.scss">
       <link rel="stylesheet" type="text/css" href="scss/project_color.scss">
       <link rel="stylesheet" type="text/css" href="css/project_color.css">
+      <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+      <link rel="stylesheet" type="text/css" href="css/leap.css">
       <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
       <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
       <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
       <link rel="manifest" href="/site.webmanifest">
       <title>Arthur Edwards</title>
    </head>
-   <body>
+   <body class="wow fadeIn" data-wow-duration="0.7s" data-wow-offset="20" data-wow-delay="0.95s">
       <div class="pos-f-t off_nav_layer" id="rabbit">
          <nav class="navbar navbar-dark justify-content-between nav_header_color">
             <a class="navbar-brand nav_logo " href="index.html">ace</a>
@@ -231,5 +233,9 @@
          integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
          crossorigin="anonymous"></script>
       <script src="js/rabbit_disapear_nav.js"></script>
+      <script src="js/wow.min.js"></script>
+      <script>
+            new WOW().init();
+         </script>
    </body>
 </html>
