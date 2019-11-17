@@ -1,5 +1,11 @@
+/* Coolors Exported Palette - coolors.co/61ff7e-5eeb5b-a2dce4-004fff-2ec4b6 */
+/* HSL */
+/* RGB */
 .mb-5 {
   margin-bottom: 0px; }
+
+.logo_alt {
+  color: linear-gradient(to right, #61ff7e 50%, #5eeb5b 50%, #a2dce4 50%, #004fff 50%, #2ec4b6 50%); }
 
 .wow {
   visibility: hidden; }

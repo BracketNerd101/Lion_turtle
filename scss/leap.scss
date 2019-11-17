@@ -1,4 +1,4 @@
-
+@import"../scss/palette.scss";
 
 body {
 
@@ -11,6 +11,13 @@ body {
   margin-bottom: 0px;
 }
 
+.logo_alt {
+
+    // height: 8rem;
+    // width: auto;
+    // margin-bottom: 2rem;
+    color: linear-gradient( to right, $color1 50% , $color2 50% ,$color3 50% , $color4 50%, $color5 50%);
+}
 
 .wow {
     visibility: hidden;
