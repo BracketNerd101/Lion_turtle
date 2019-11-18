@@ -1,6 +1,9 @@
 /* Coolors Exported Palette - coolors.co/61ff7e-5eeb5b-a2dce4-004fff-2ec4b6 */
 /* HSL */
 /* RGB */
+body {
+  min-height: 1200px; }
+
 .mb-5 {
   margin-bottom: 0px; }
 
