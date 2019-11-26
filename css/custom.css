@@ -70,8 +70,7 @@
   bottom: 0; }
 .special_container img {
   max-width: 100%;
-  vertical-align: middle;
-  box-shadow: 0 0.4rem 1rem rgba(61, 48, 41, 0.2); }
+  vertical-align: middle; }
 .special_container .attribution {
   position: absolute;
   bottom: 0;
