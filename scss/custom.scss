@@ -33,7 +33,11 @@
     position: relative;
     z-index: -1;
     background: #fff;
-    box-shadow: 0 0.2rem 1rem rgba(61,48,41,0.2);
+    border: 2px solid #f0f0f0;
+    border-top: 1px solid #f0f0f0;
+    // border-right: 15px solid rgba(97, 255, 126, 1);
+    // border-bottom: 15px solid rgba(97, 255, 126, 1);
+    // box-shadow: 0 0.2rem 1rem rgba(61,48,41,0.2);
   }
   .card_heading {
     grid-area: title;
@@ -112,7 +116,8 @@ p {
 img {
   max-width: 100%;
   vertical-align: middle;
-  box-shadow: 0 0.2rem 1.2rem rgba(61,48,41,0.1);
+   box-shadow: 0 0.4rem 1rem rgba(61,48,41,0.2);
+//   box-shadow: 0 0.2rem 1.2rem rgba(61,48,41,0.1);
 }
 .attribution {
   position: absolute;

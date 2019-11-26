@@ -447,6 +447,9 @@ body {
 .xlarge_sep {
   margin-top: 12rem; }
 
+.xlarge_sep_bottom {
+  margin-bottom: 12rem; }
+
 .call_out_text {
   font-family: 'Lato', sans-serif; }
 
