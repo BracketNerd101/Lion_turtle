@@ -35,7 +35,7 @@ body {
 }
 
 .bill_hero {
-  background-image: url("../img/fb_Review_payment.jpg");
+  background-image: url("../img/aaa_layers.png");
   background-size: cover;
   height: 40rem;
   width: 100%;
@@ -197,7 +197,6 @@ img {
 
 .project_style_font {
   font-family: "Montserrat Alternates", sans-serif;
-  text-shadow: #636363 2px 2px;
 }
 
 #flb_bg {
