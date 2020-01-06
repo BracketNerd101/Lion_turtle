@@ -1,92 +1,104 @@
 <!doctype html>
 <html lang="en">
-   <head>
-      <!-- Required meta tags -->
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-      <!-- Bootstrap CSS -->
-      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-      <link rel="stylesheet" type="text/css" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
-      <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous"> -->
-      <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat+Alternates:700" rel="stylesheet">
-      <link rel="stylesheet" type="text/css" href="css/nav_style.css">
-      <link rel="stylesheet" type="text/css" href="css/main_style.css">
-      <link rel="stylesheet" type="text/css" href="css/nav_hide_style.css">
-      <link rel="stylesheet" type="text/css" href="scss/nav_style.scss">
-      <link rel="stylesheet" type="text/css" href="scss/black_green.scss">
-      <link rel="stylesheet" type="text/css" href="scss/main_style.scss">
-      <link rel="stylesheet" type="text/css" href="css/project_color.css">
-      <link rel="stylesheet" type="text/css" href="css/animate.min.css">
-      <link rel="stylesheet" type="text/css" href="css/leap.css">
-      <link rel="stylesheet" type="text/css" href="scss/custom.scss">
-      <link rel="stylesheet" type="text/css" href="css/custom.css">
-      <!-- favicon -->
-      <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-      <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
-      <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
-      <link rel="manifest" href="/site.webmanifest">
-      <!-- favicon -->
-      <script async="" src="https://www.google-analytics.com/analytics.js"></script>
-      <script>
-         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-         m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-         })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-         ga('create', 'UA-33022916-1', 'auto');
-         ga('send', 'pageview');
-      </script>
-      <title>Arthur Edwards</title>
-   </head>
-   <body>
-      <div class="pos-f-t off_nav_layer" id="rabbit">
-         <nav class="navbar navbar-dark justify-content-between nav_header_color shadow-lg p-3">
-            <a class="navbar-brand nav_logo" href="index.html">ace</a>
-            <button class="navbar-toggler nav_naked text-light" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+<head>
+   <!-- Required meta tags -->
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+   <link rel="stylesheet" type="text/css" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+   <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous"> -->
+   <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat+Alternates:700" rel="stylesheet">
+   <link rel="stylesheet" type="text/css" href="css/nav_style.css">
+   <link rel="stylesheet" type="text/css" href="css/main_style.css">
+   <link rel="stylesheet" type="text/css" href="css/nav_hide_style.css">
+   <link rel="stylesheet" type="text/css" href="scss/nav_style.scss">
+   <link rel="stylesheet" type="text/css" href="scss/black_green.scss">
+   <link rel="stylesheet" type="text/css" href="scss/main_style.scss">
+   <link rel="stylesheet" type="text/css" href="css/project_color.css">
+   <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+   <link rel="stylesheet" type="text/css" href="css/leap.css">
+   <link rel="stylesheet" type="text/css" href="scss/custom.scss">
+   <link rel="stylesheet" type="text/css" href="css/custom.css">
+   <!-- favicon -->
+   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+   <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+   <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+   <link rel="manifest" href="/site.webmanifest">
+   <!-- favicon -->
+   <script async="" src="https://www.google-analytics.com/analytics.js"></script>
+   <script>
+      (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+         (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date(); a = s.createElement(o),
+         m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+      })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+      ga('create', 'UA-33022916-1', 'auto');
+      ga('send', 'pageview');
+   </script>
+   <title>Arthur Edwards</title>
+</head>
+
+<body>
+   <div class="pos-f-t off_nav_layer" id="rabbit">
+      <nav class="navbar navbar-dark justify-content-between nav_header_color shadow-lg p-3">
+         <a class="navbar-brand nav_logo" href="index.html">ace</a>
+         <button class="navbar-toggler nav_naked text-light" type="button" data-toggle="collapse"
+            data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false"
+            aria-label="Toggle navigation">
             <span class="text-success"> <i class="fa fa-bars"></i></span>
-            </button>
-         </nav>
-         <div class="collapse" id="navbarToggleExternalContent">
-            <div class="bg-white p-4">
-               <div class="row">
-                  <div class="col-lg-12">
-                     <button class="navbar-toggler float-right text-success nav_naked FIS" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+         </button>
+      </nav>
+      <div class="collapse" id="navbarToggleExternalContent">
+         <div class="bg-white p-4">
+            <div class="row">
+               <div class="col-lg-12">
+                  <button class="navbar-toggler float-right text-success nav_naked FIS" type="button"
+                     data-toggle="collapse" data-target="#navbarToggleExternalContent"
+                     aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
                      <span class="text-success"> close <i class="fa fa-close"></i></span>
-                     </button>
-                  </div>
+                  </button>
                </div>
-               <div class="row">
-                  <div class="col-lg-12 col-md-12 col-sm-12">
-                     <ul class="nav justify-content-center nav_section_space_top nav_section_space_bottom">
-                        <li class="nav-item">
-                           <a class="nav-link text-success nav_text_style" href="index.html">Portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                           <a class="nav-link text-success nav_text_style" href="about.html">About</a>
-                        </li>
-                        <li class="nav-item">
-                           <a class="nav-link text-success nav_text_style" href="mailto:arthur.edwards321@gmail.com">Contact</a>
-                        </li>
-                        <li class="nav-item">
-                           <a class="nav-link text-success nav_text_style" href="RESUME_2020_ace.pdf" target="_blank" aria-disabled="true">Résumé</a>
-                        </li>
-                     </ul>
-                  </div>
-                  <div class="col-lg-12 col-md-12 col-sm-12 justify-content-center">
-                     <ul class="nav justify-content-center footer_space_padding">
-                        <li class="nav-item">
-                           <a class="nav-link text-success nav_text_style" target="_blank" href="https://www.linkedin.com/in/arthur-edwards-40170919/" ><i class="fa fa-linkedin"></i>  </a>
-                        </li>
-                        <li class="nav-item">
-                           <a class="nav-link text-success nav_text_style" target="_blank" href="https://www.instagram.com/backspace_101/"><i class="fa fa-instagram"></i></a>
-                        </li>
-                        <li class="nav-item">
-                           <a class="nav-link text-success nav_text_style" target="_blank" href="https://vimeo.com/user33799382"><i class="fa fa-vimeo"></i>  </a>
-                        </li>
-                     </ul>
-                  </div>
-                  <!-- end of div -->
+            </div>
+            <div class="row">
+               <div class="col-lg-12 col-md-12 col-sm-12">
+                  <ul class="nav justify-content-center nav_section_space_top nav_section_space_bottom">
+                     <li class="nav-item">
+                        <a class="nav-link text-success nav_text_style" href="index.html">Portfolio</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link text-success nav_text_style" href="about.html">About</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link text-success nav_text_style"
+                           href="mailto:arthur.edwards321@gmail.com">Contact</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link text-success nav_text_style" href="RESUME_2020_ace.pdf" target="_blank"
+                           aria-disabled="true">Résumé</a>
+                     </li>
+                  </ul>
+               </div>
+               <div class="col-lg-12 col-md-12 col-sm-12 justify-content-center">
+                  <ul class="nav justify-content-center footer_space_padding">
+                     <li class="nav-item">
+                        <a class="nav-link text-success nav_text_style" target="_blank"
+                           href="https://www.linkedin.com/in/arthur-edwards-40170919/"><i class="fa fa-linkedin"></i>
+                        </a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link text-success nav_text_style" target="_blank"
+                           href="https://www.instagram.com/backspace_101/"><i class="fa fa-instagram"></i></a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link text-success nav_text_style" target="_blank"
+                           href="https://vimeo.com/user33799382"><i class="fa fa-vimeo"></i> </a>
+                     </li>
+                  </ul>
                </div>
                <!-- end of div -->
             </div>
@@ -95,234 +107,232 @@
          <!-- end of div -->
       </div>
       <!-- end of div -->
-
-      <div class="jumbotron jumbotron-fluid sales_intro_hero hello_hero_text hero_home_margin mosaic_intro wow fadeIn" data-wow-duration="2.1s" data-wow-offset="20" data-wow-delay="0.5s" id="sales_intro_hero">
-            <div class="container">
-               <div class="row">
-                  <div class="col-lg-6 col-md-6 col-sm-12 wow fadeInUp" data-wow-duration="1.987s" data-wow-offset="20" data-wow-delay="0.9s">
-                     <!-- <div class="col-lg-6 hello_hero_text"><img src="img/ace_logo_2020x.svg" class="logo_alt" alt=""></div> -->
-                     <h4 class="hello_hero_text"><span class="logo_alt">ace</span></h4>
-                     <!-- <h3 class="font-italic text-success">Arthur Charles Edwards</h3> -->
-                     <p class="lead">
-                        Hi, I'm Arthur Charles Edwards. I'm  a <span class="text-success">Visual Web Designer</span>, <span class="text-success">Front-End Enthusiast and Quasi-Sneakerhead.</span>  This portfolio showcases <span class="text-success"> 8 years of my professional work.</span>
-
-                     </p>
-
-                  </div>
-
-               </div>
-               <!-- end of row-->
-            </div>
-            <!-- end of container-->
-         </div>
-         <!-- end of jumbotron sales_intro_hero-->
-
-         <div class="container large_sep wow slideInUp" data-wow-duration="1.3s" data-wow-offset="20" data-wow-delay="0.25s">
-            <div class="row">
-               <div class="special_container col-lg-12 col-md-12">
-                 
-                     <section class="card_special">
-                        <h4 class="card_heading intro_header_about_style text-secondary">Billing and Payment</h3>
-                        <div class="content">
-                           <p>A fully responsive web application for the modern era.</p>
-                              <a class="btn btn-lg btn-success rounded-0" href="fb_billing.html" role="button">See Project</a>
-                        </div>
-                        <div class="img">
-                           <img src="img/fb_mobile_yellow.jpg" />
-                              
-                           </div>
-                     </section>
-                  </div>
-               </div>
+   </div>
+   <!-- end of div -->
+   <div class="jumbotron jumbotron-fluid sales_intro_hero hello_hero_text hero_home_margin mosaic_intro wow fadeIn"
+      data-wow-duration="2.1s" data-wow-offset="20" data-wow-delay="0.5s" id="sales_intro_hero">
+      <div class="container">
+         <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 wow fadeInUp" data-wow-duration="1.987s" data-wow-offset="20"
+               data-wow-delay="0.9s">
+               <!-- <div class="col-lg-6 hello_hero_text"><img src="img/ace_logo_2020x.svg" class="logo_alt" alt=""></div> -->
+               <h4 class="hello_hero_text"><span class="logo_alt">ace</span></h4>
+               <!-- <h3 class="font-italic text-success">Arthur Charles Edwards</h3> -->
+               <p class="lead">
+                  Hi, I'm Arthur Charles Edwards. I'm a <span class="text-success">Visual Web Designer</span>, <span
+                     class="text-success">Front-End Enthusiast and Quasi-Sneakerhead.</span> This portfolio showcases
+                  <span class="text-success"> 8 years of my professional work.</span>
+               </p>
             </div>
          </div>
-
-         <div class="container large_sep wow slideInUp" data-wow-duration="1.3s" data-wow-offset="20" data-wow-delay="0.25s">
-            <div class="row">
-               
-               <div class="special_container col-lg-12 col-md-12">
-         
-                  <section class="card_special">
-                     <h4 class="card_heading intro_header_about_style text-secondary">Cost Compare Tool</h3>
-                     <div class="content">
-                        <p>A fun application introducing new patterns, playful nav and card designs.</p>
-                        <a class="btn btn-lg btn-success rounded-0" href="blue_compare.html" role="button">See Project</a>
-                     </div>
-                     <div class="img">
-                        <img src="img/cqt_ipad_2.jpg" />
-         
-                     </div>
-                  </section>
-               </div>
-            </div>
-         </div>
-         </div>
-
-         <div class="container large_sep wow slideInUp" data-wow-duration="1.3s" data-wow-offset="20" data-wow-delay="0.25s">
-            <div class="row">
-               <div class="special_container col-lg-12 col-md-12">
-         
-                  <section class="card_special">
-                     <h4 class="card_heading intro_header_about_style text-secondary">Social Application</h3>
-                     <div class="content">
-                        <p>An application built to promote collaboration between teams and stakeholders.</p>
-                        <a class="btn btn-lg btn-success rounded-0" href="portal_fis.html" role="button">See Project</a>
-                     </div>
-                     <div class="img">
-                        <img src="img/fis_close_global_search.jpg" />
-         
-                     </div>
-                  </section>
-               </div>
-            </div>
-         </div>
-         </div>
-
-                <div class="container-fluid xlarge_sep  wow slideInUp" data-wow-duration="1.3s" data-wow-offset="20" data-wow-delay="0.25s">
-                     <div class="row">
-                        <div class="col-lg-12">
-                           <h4 class="text-center text-success lead small_sep_bottom text-uppercase">I've worked with some premier clients over the years</h4>
-                           <ul class="nav nav-fill">
-                              <!-- <li class="nav-item">
-                                 <a class="nav-link text-dark" href="#"><h5 class="text-dark">Clients &nbsp; |</h5></a>
-                                 </li> -->
-                              <li class="nav-item">
-                                 <a class="nav-link disabled" href="#"><img src="img/fis_logo_bw.png" class="fis_size_logo" alt=""></a>
-                              </li>
-                              <li class="nav-item">
-                                 <a class="nav-link disabled" href="#"><img src="img/uf_logo_grey.png" class="img_clients" alt=""></a>
-                              </li>
-                              <li class="nav-item">
-                                 <a class="nav-link disabled" href="#"> <img src="img/bw_gwc.png" class="img_clients" alt=""></a>
-                              </li>
-                              <li class="nav-item">
-                                 <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"> <img src="img/bw_citi.png" class="img_clients" alt=""></a>
-                              </li>
-                              <!-- <li class="nav-item">
-                                 <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"> <img src="img/bw_tek@2x.png" class="img_clients" alt=""></a>
-                                 </li> -->
-                           </ul>
-                        </div> <!-- end of column-->
-                     </div> <!-- end of row-->
-                  </div> <!-- end container fluid-->
-
-                  <div class="container large_sep wow slideInUp" data-wow-duration="1.3s" data-wow-offset="20" data-wow-delay="0.25s">
-                     <div class="row">
-                        <div class="special_container col-lg-12 col-md-12">
-                  
-                           <section class="card_special">
-                              <h4 class="card_heading intro_header_about_style text-secondary">UI Kit</h3>
-                                 <div class="content">
-                                    <p>A developers playground and a timelines worst enemy.</p>
-                                    <a class="btn btn-lg btn-success rounded-0" href="kit.html" role="button">See Project</a>
-                                 </div>
-                                 <div class="img">
-                                    <img src="img/glados_desk2.jpg" />
-                  
-                                 </div>
-                           </section>
-                        </div>
-                     </div>
-                  </div>
-                  </div>
-                  
-                  <div class="container large_sep wow slideInUp" data-wow-duration="1.3s" data-wow-offset="20" data-wow-delay="0.25s">
-                     <div class="row">
-                      
-                        <div class="special_container col-lg-12 col-md-12">
-                  
-                           <section class="card_special">
-                              <h4 class="card_heading intro_header_about_style text-secondary">Design System and Workflow</h3>
-                                 <div class="content">
-                                    <p>Creating components and patterns to speed up workflow.</p>
-                                    <a class="btn btn-lg btn-success rounded-0" href="system.html" role="button">See Project</a>
-                                 </div>
-                                 <div class="img">
-                                    <img src="img/kit_step_bars.png" class="border border-white shadow-sm" />
-                  
-                                 </div>
-                           </section>
-                        </div>
-                     </div>
-                  </div>
-                  </div>
-                  
-                  <div class="container large_sep wow slideInUp" data-wow-duration="1.3s" data-wow-offset="20" data-wow-delay="0.25s">
-                     <div class="row">
-                        <div class="special_container col-lg-12 col-md-12">
-                  
-                           <section class="card_special">
-                              <h4 class="card_heading intro_header_about_style text-secondary">Art Direction</h3>
-                                 <div class="content">
-                                    <p>A multidisciplinary case study.</p>
-                                    <a class="btn btn-lg btn-success rounded-0" href="toyota.html" role="button">See Project</a>
-                                 </div>
-                                 <div class="img">
-                                    <img src="img/tc_desktop_alt.jpg" />
-                  
-                                 </div>
-                           </section>
-                        </div>
-                     </div>
-                  </div>
-                  </div>
-                     <section class="footer_container_box bg-white">
-                            <div class="container">
-                               <div class="row">
-                                  <div class="col-lg-12">
-                                     <h3 class="text-dark large_sep text-center">
-                                        arthur charles edwards
-                                     </h3>
-                                  </div>
-                                  <div class="col-lg-12 small_sep large_sep_bottom text-dark text-center">
-                                     <p class="lead">Visual Web Design and Digital Media are part of my most rewarding accomplishments. <br> Learn more about my work and enthusiasm for design on the about page. </p>
-                                    <p class="lead"> Download my <a href="ace_folio_book.pdf" class="text-success"
-                                          target="_blank"> folio book</a> to review my selected work offline. </p>
-                                     <br>
-                                     <a class="btn btn-lg btn-success rounded-0" href="RESUME_2020_ace.pdf" target="_blank" role="button">Résumé</a>
-                                     <a class="btn btn-lg btn-success rounded-0" href="about.html" role="button">About</a>
-                                  </div>
-                               </div>
-                               <!-- end of div-->
-                            </div>
-                            <!-- end of div-->
-                         </section>
-                         <!-- end of div-->
-
-      <div class="container-fluid bg-white">
-         <ul class="nav justify-content-center nav_section_space_top footer_space_padding">
-            <li class="nav-item">
-               <a class="nav-link text-success nav_text_style" href="index.html">Portfolio</a>
-            </li>
-            <li class="nav-item">
-               <a class="nav-link text-success nav_text_style" href="about.html">About</a>
-            </li>
-            <li class="nav-item">
-               <a class="nav-link text-success nav_text_style" href="mailto:arthur.edwards321@gmail.com">Contact</a>
-            </li>
-            <li class="nav-item">
-               <a class="nav-link text-success nav_text_style" href="RESUME_2020_ace.pdf" target="_blank" aria-disabled="true">Résumé</a>
-            </li>
-         </ul>
+         <!-- end of row-->
       </div>
-      <div class="container-fluid">
+      <!-- end of container-->
+   </div>
+   <!-- end of jumbotron sales_intro_hero-->
+   <div class="container large_sep wow slideInUp" data-wow-duration="1.3s" data-wow-offset="20" data-wow-delay="0.25s">
+      <div class="row">
+         <div class="special_container col-lg-12 col-md-12">
+            <section class="card_special">
+               <h4 class="card_heading intro_header_about_style text-secondary">
+                  Billing and Payment</h3>
+                  <div class="content">
+                     <p>A fully responsive web application for the modern era.</p>
+                     <a class="btn btn-lg btn-success rounded-0" href="fb_billing.html" role="button">See Project</a>
+                  </div>
+                  <div class="img">
+                     <img src="img/fb_mobile_yellow.jpg" />
+                  </div>
+            </section>
+         </div>
+      </div>
+   </div>
+   </div>
+   <div class="container large_sep wow slideInUp" data-wow-duration="1.3s" data-wow-offset="20" data-wow-delay="0.25s">
+      <div class="row">
+         <div class="special_container col-lg-12 col-md-12">
+            <section class="card_special">
+               <h4 class="card_heading intro_header_about_style text-secondary">
+                  Cost Compare Tool</h3>
+                  <div class="content">
+                     <p>A fun application introducing new patterns, playful nav and card designs.</p>
+                     <a class="btn btn-lg btn-success rounded-0" href="blue_compare.html" role="button">See Project</a>
+                  </div>
+                  <div class="img">
+                     <img src="img/cqt_ipad_2.jpg" />
+                  </div>
+            </section>
+         </div>
+      </div>
+   </div>
+   </div>
+   <div class="container large_sep wow slideInUp" data-wow-duration="1.3s" data-wow-offset="20" data-wow-delay="0.25s">
+      <div class="row">
+         <div class="special_container col-lg-12 col-md-12">
+            <section class="card_special">
+               <h4 class="card_heading intro_header_about_style text-secondary">
+                  Social Application</h3>
+                  <div class="content">
+                     <p>An application built to promote collaboration between teams and stakeholders.</p>
+                     <a class="btn btn-lg btn-success rounded-0" href="portal_fis.html" role="button">See Project</a>
+                  </div>
+                  <div class="img">
+                     <img src="img/fis_close_global_search.jpg" />
+                  </div>
+            </section>
+         </div>
+      </div>
+   </div>
+   </div>
+   <div class="container-fluid xlarge_sep  wow slideInUp" data-wow-duration="1.3s" data-wow-offset="20"
+      data-wow-delay="0.25s">
+      <div class="row">
+         <div class="col-lg-12">
+            <h4 class="text-center text-success lead small_sep_bottom text-uppercase">I've worked with some premier
+               clients over the years</h4>
+            <ul class="nav nav-fill">
+               <!-- <li class="nav-item">
+                     <a class="nav-link text-dark" href="#"><h5 class="text-dark">Clients &nbsp; |</h5></a>
+                     </li> -->
+               <li class="nav-item">
+                  <a class="nav-link disabled" href="#"><img src="img/fis_logo_bw.png" class="fis_size_logo" alt=""></a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link disabled" href="#"><img src="img/uf_logo_grey.png" class="img_clients" alt=""></a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link disabled" href="#"> <img src="img/bw_gwc.png" class="img_clients" alt=""></a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"> <img src="img/bw_citi.png"
+                        class="img_clients" alt=""></a>
+               </li>
+               <!-- <li class="nav-item">
+                     <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"> <img src="img/bw_tek@2x.png" class="img_clients" alt=""></a>
+                     </li> -->
+            </ul>
+         </div>
+         <!-- end of column-->
+      </div>
+      <!-- end of row-->
+   </div>
+   <!-- end container fluid-->
+   <div class="container large_sep wow slideInUp" data-wow-duration="1.3s" data-wow-offset="20" data-wow-delay="0.25s">
+      <div class="row">
+         <div class="special_container col-lg-12 col-md-12">
+            <section class="card_special">
+               <h4 class="card_heading intro_header_about_style text-secondary">
+                  UI Kit</h3>
+                  <div class="content">
+                     <p>A developers playground and a timelines worst enemy.</p>
+                     <a class="btn btn-lg btn-success rounded-0" href="kit.html" role="button">See Project</a>
+                  </div>
+                  <div class="img">
+                     <img src="img/glados_desk2.jpg" />
+                  </div>
+            </section>
+         </div>
+      </div>
+   </div>
+   </div>
+   <div class="container large_sep wow slideInUp" data-wow-duration="1.3s" data-wow-offset="20" data-wow-delay="0.25s">
+      <div class="row">
+         <div class="special_container col-lg-12 col-md-12">
+            <section class="card_special">
+               <h4 class="card_heading intro_header_about_style text-secondary">
+                  Design System and Workflow</h3>
+                  <div class="content">
+                     <p>Creating components and patterns to speed up workflow.</p>
+                     <a class="btn btn-lg btn-success rounded-0" href="system.html" role="button">See Project</a>
+                  </div>
+                  <div class="img">
+                     <img src="img/kit_step_bars.png" class="border border-white shadow-sm" />
+                  </div>
+            </section>
+         </div>
+      </div>
+   </div>
+   </div>
+   <div class="container large_sep wow slideInUp" data-wow-duration="1.3s" data-wow-offset="20" data-wow-delay="0.25s">
+      <div class="row">
+         <div class="special_container col-lg-12 col-md-12">
+            <section class="card_special">
+               <h4 class="card_heading intro_header_about_style text-secondary">
+                  Art Direction</h3>
+                  <div class="content">
+                     <p>A multidisciplinary case study.</p>
+                     <a class="btn btn-lg btn-success rounded-0" href="toyota.html" role="button">See Project</a>
+                  </div>
+                  <div class="img">
+                     <img src="img/tc_desktop_alt.jpg" />
+                  </div>
+            </section>
+         </div>
+      </div>
+   </div>
+   </div>
+   <section class="footer_container_box bg-white">
+      <div class="container">
          <div class="row">
             <div class="col-lg-12">
-               <ul class="nav justify-content-center footer_space_padding">
-                  <li class="nav-item">
-                     <a class="nav-link text-success nav_text_style" target="_blank" href="https://www.linkedin.com/in/arthur-edwards-40170919/"><i class="fa fa-linkedin"></i>  </a>
-                  </li>
-                  <li class="nav-item">
-                     <a class="nav-link text-success nav_text_style" target="_blank" href="https://www.instagram.com/backspace_101/"><i class="fa fa-instagram"></i></a>
-                  </li>
-                  <li class="nav-item">
-                     <a class="nav-link text-success nav_text_style" target="_blank" href="https://vimeo.com/user33799382"><i class="fa fa-vimeo"></i>  </a>
-                  </li>
-               </ul>
+               <h3 class="text-dark large_sep text-center">
+                  arthur charles edwards
+               </h3>
+            </div>
+            <div class="col-lg-12 small_sep large_sep_bottom text-dark text-center">
+               <p class="lead">Visual Web Design and Digital Media are part of my most rewarding accomplishments. <br>
+                  Learn more about my work and enthusiasm for design on the about page. </p>
+               <p class="lead"> Download my <a href="ace_folio_book.pdf" class="text-success" target="_blank"> folio
+                     book</a> to review my selected work offline. </p>
+               <br>
+               <a class="btn btn-lg btn-success rounded-0" href="RESUME_2020_ace.pdf" target="_blank"
+                  role="button">Résumé</a>
+               <a class="btn btn-lg btn-success rounded-0" href="about.html" role="button">About</a>
             </div>
          </div>
+         <!-- end of div-->
       </div>
-      <!-- <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <!-- end of div-->
+   </section>
+   <!-- end of div-->
+   <div class="container-fluid bg-white">
+      <ul class="nav justify-content-center nav_section_space_top footer_space_padding">
+         <li class="nav-item">
+            <a class="nav-link text-success nav_text_style" href="index.html">Portfolio</a>
+         </li>
+         <li class="nav-item">
+            <a class="nav-link text-success nav_text_style" href="about.html">About</a>
+         </li>
+         <li class="nav-item">
+            <a class="nav-link text-success nav_text_style" href="mailto:arthur.edwards321@gmail.com">Contact</a>
+         </li>
+         <li class="nav-item">
+            <a class="nav-link text-success nav_text_style" href="RESUME_2020_ace.pdf" target="_blank"
+               aria-disabled="true">Résumé</a>
+         </li>
+      </ul>
+   </div>
+   <div class="container-fluid">
+      <div class="row">
+         <div class="col-lg-12">
+            <ul class="nav justify-content-center footer_space_padding">
+               <li class="nav-item">
+                  <a class="nav-link text-success nav_text_style" target="_blank"
+                     href="https://www.linkedin.com/in/arthur-edwards-40170919/"><i class="fa fa-linkedin"></i> </a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link text-success nav_text_style" target="_blank"
+                     href="https://www.instagram.com/backspace_101/"><i class="fa fa-instagram"></i></a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link text-success nav_text_style" target="_blank"
+                     href="https://vimeo.com/user33799382"><i class="fa fa-vimeo"></i> </a>
+               </li>
+            </ul>
+         </div>
+      </div>
+   </div>
+   <!-- <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
          <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                <div class="modal-header">
@@ -346,26 +356,27 @@
                </div>
             </div>
          </div>
-      </div> -->
-      <!-- Optional JavaScript -->
-      <script src="js/cool_card.js"></script>
-      <script src="js/main.js"></script>
-      <script src="js/copper_pot.js"></script>
-      <script src="js/shrink.js"></script>
-      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-         crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-         crossorigin="anonymous"></script>
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-         crossorigin="anonymous"></script>
-      <script src="js/rabbit_disapear_nav.js"></script>
-      <script src="js/wow.min.js"></script>
-      <script>
-            new WOW().init();
-         </script>
-   </body>
+         </div> -->
+   <!-- Optional JavaScript -->
+   <script src="js/cool_card.js"></script>
+   <script src="js/main.js"></script>
+   <script src="js/copper_pot.js"></script>
+   <script src="js/shrink.js"></script>
+   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"></script>
+   <script src="js/rabbit_disapear_nav.js"></script>
+   <script src="js/wow.min.js"></script>
+   <script>
+      new WOW().init();
+   </script>
+</body>
+
 </html>
