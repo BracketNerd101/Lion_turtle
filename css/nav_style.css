@@ -3,54 +3,56 @@
 /* HSL */
 /* RGB */
 .nav_section_space_top {
-  margin-top: 4rem;
-}
+  margin-top: 4rem; }
 
 .nav_section_space_bottom {
-  margin-bottom: 4rem;
-}
+  margin-bottom: 4rem; }
 
 .nav_text_style {
-  font-size: 1.2rem;
-}
+  font-size: 1.2rem; }
 
 .nav_naked {
-  border: none;
-}
+  border: none; }
 
 .nav_header_color {
   background-color: rgba(253, 253, 253, 0.95);
-  color: limegreen;
-}
-.nav_header_color .navbar-brand {
-  color: limegreen;
-}
-.nav_header_color .nav_logo a {
-  color: limegreen;
-}
+  color: limegreen; }
+  .nav_header_color .navbar-brand {
+    color: limegreen; }
+  .nav_header_color .nav_logo a {
+    color: limegreen; }
 
 .off_nav_layer {
-  z-index: 9000000000000000;
-}
+  z-index: 9000000000000000; }
 
 #rabbit {
   position: fixed;
   top: 0;
   width: 100%;
   display: block;
-  transition: top 0.7s;
-}
+  transition: top 0.7s; }
 
 .footer_space_top {
-  padding-top: 8rem;
-}
+  padding-top: 8rem; }
 
 .footer_space_padding {
-  padding-bottom: 4.2rem;
-}
+  padding-bottom: 4.2rem; }
 
 .footer_container_box {
-  height: inherit;
-}
+  height: inherit; }
+
+#arrowUpBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border-radius: 50%;
+  font-size: 18px;
+  cursor: pointer;
+  animation-duration: 0.6s; }
+
+#arrowUpBtn:hover {
+  background-color: #fafafa; }
 
 /*# sourceMappingURL=nav_style.css.map */
