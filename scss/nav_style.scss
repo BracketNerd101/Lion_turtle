@@ -97,3 +97,14 @@
     background-color: #fafafa;
 }
     
+.progress-container {
+  width: 100%;
+  height: 0.3rem;
+  background: transparent;
+}
+
+.progress-bar {
+  height: 0.3rem;
+  background: limegreen;
+  width: 0%;
+}
