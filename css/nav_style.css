@@ -69,10 +69,12 @@
 .flex-armstrong {
   display: flex;
   justify-content: space-between;
-  height: inherit; }
+  height: inherit;
+  z-index: 99900000; }
   .flex-armstrong .box-markers {
-    background-color: rgba(253, 253, 253, 0.45);
-    padding: 2rem 2rem; }
+    background: rgba(153, 204, 51, 0.9);
+    padding: 2rem 2rem;
+    z-index: 900000; }
 
 /* Overlay style */
 .overlay {
