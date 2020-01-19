@@ -67,7 +67,8 @@
   width: 0%; }
 
 .flex-armstrong {
-  display: flex; }
+  display: flex;
+  justify-content: space-between; }
 
 /* Overlay style */
 .overlay {
