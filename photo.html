@@ -12,7 +12,7 @@
       <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat+Alternates:700" rel="stylesheet">
       <link rel="stylesheet" type="text/css" href="css/nav_style.css">
       <link rel="stylesheet" type="text/css" href="css/normalize.css">
-   <link rel="stylesheet" type="text/css" href="css/main_style.css">
+      <link rel="stylesheet" type="text/css" href="css/main_style.css">
       <link rel="stylesheet" type="text/css" href="css/nav_hide_style.css">
       <link rel="stylesheet" type="text/css" href="scss/nav_style.scss">
       <link rel="stylesheet" type="text/css" href="scss/black_green.scss">
@@ -32,56 +32,29 @@
       <button type="button" id="arrowUpBtn" onclick="scrollToTop(); return false"
          class="btn text-center text-dark shadow-sm rounded-circle text-success"><i
             class="fa fa-arrow-up text-success"></i></button>
-      <div class="pos-f-t off_nav_layer" id="rabbit">
-         <nav class="navbar navbar-dark justify-content-between nav_header_color">
-            <a class="navbar-brand nav_logo" href="index.html">ace</a>
-            <button class="navbar-toggler nav_naked text-light" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="text-success"> <i class="fa fa-bars"></i></span>
-            </button>
+      <div class="container-fluid">
+         <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 flex-armstrong position-fixed">
+               <a class="box-markers-logo text-success nav_logo" href="index.html">ace</a>
+               <a class="box-markers-menu text-success" id="trigger-overlay" type="button">
+                  <span class="text-success"> <i class="fa fa-bars fa-2x"></i></span>
+               </a>
+            </div>
+         </div>
+      </div>
+      
+      <div class="overlay overlay-door">
+         <button type="button" class="overlay-close">Close</button>
+         <nav>
+            <ul>
+               <li><a href="index.html" class="mega_link_style">Home</a></li>
+               <li><a href="about.html" class="mega_link_style">About</a></li>
+               <li><a href="mailto:arthur.edwards321@gmail.com" class="mega_link_style">Email</a></li>
+               <li><a href="RESUME_2020_ace.pdf" target="_blank" aria-disabled="true" class="mega_link_style">Résumé</a></li>
+      
+            </ul>
          </nav>
-         <div class="collapse" id="navbarToggleExternalContent">
-            <div class="bg-white shadow mb-5 p-4">
-               <div class="row">
-                  <div class="col-lg-12">
-                        <button class="navbar-toggler float-right text-success nav_naked FIS" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-                              <span class="text-success"> close <i class="fa fa-close"></i></span>
-                        </button>
-                  </div>
-               </div>
-               <div class="row">                  
-                   <div class="col-lg-12 col-md-12 col-sm-12">
-                     <ul class="nav justify-content-center nav_section_space_top nav_section_space_bottom">
-                        <li class="nav-item">
-                           <a class="nav-link text-success nav_text_style" href="index.html">Portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                           <a class="nav-link text-success nav_text_style" href="about.html">About</a>
-                        </li>
-                        <li class="nav-item">
-                           <a class="nav-link text-success nav_text_style" href="mailto:arthur.edwards321@gmail.com">Contact</a>
-                        </li>
-                        <li class="nav-item">
-                           <a class="nav-link text-success nav_text_style" href="RESUME_2020_ace.pdf" target="_blank" aria-disabled="true">Résumé</a>
-                        </li>
-                     </ul>
-                  </div>
-                  <div class="col-lg-12 col-md-12 col-sm-12 justify-content-center">
-                        <ul class="nav justify-content-center footer_space_padding">
-                                <li class="nav-item">
-                                    <a class="nav-link text-success nav_text_style" target="_blank" href="https://www.linkedin.com/in/arthur-edwards-40170919/" ><i class="fa fa-linkedin"></i>  </a>
-                                 </li>
-                                 <li class="nav-item">
-                                    <a class="nav-link text-success nav_text_style" target="_blank" href="https://www.instagram.com/backspace_101/"><i class="fa fa-instagram"></i></a>
-                                 </li>
-                                 <li class="nav-item">
-                                    <a class="nav-link text-success nav_text_style" target="_blank" href="https://vimeo.com/user33799382"><i class="fa fa-vimeo"></i></a>
-                            </li>
-                        </ul>
-                  </div> <!-- end of div -->
-               </div> <!-- end of div -->
-            </div> <!-- end of div -->
-         </div> <!-- end of div -->
-      </div> <!-- end of div -->
+      </div>
       <div class="jumbotron jumbotron-fluid photo_hero">
             <div class="container-fluid large_sep">
                     <h1 class="display-4 project_style_font text-white">Photography</h1>
