@@ -34,17 +34,12 @@
 
 <body class="wow fadeIn" data-wow-duration="0.7s" data-wow-offset="20" data-wow-delay="0.95s">
    <button type="button" id="arrowUpBtn" onclick="scrollToTop(); return false" class="btn text-center text-dark shadow-sm rounded-circle text-success"><i class="fa fa-arrow-up text-success"></i></button>
-   <div class="container-fluid">
-      <div class="row">
-         <div class="col-lg-12 col-md-12 col-sm-12 flex-armstrong position-fixed">
-            <a class="box-markers-logo text-success nav_logo" href="index.html">ace</a>
-            <a class="box-markers-menu text-success" id="trigger-overlay" >
-               <span class="text-success"> <i class="fa fa-battery fa-2x"></i></span>
-            </a>
-         </div>
-      </div>
-   </div>
-   
+   <nav class="navbar navbar-light fixed-top flex-armstrong">
+      <a class="text-success nav_logo box-markers-menu" href="index.html">ace</a>
+      <a class="text-success" id="trigger-overlay" >
+         <span class="text-success"> <i class="fa fa-battery fa-2x"></i></span>
+      </a>
+    </nav>
    <div class="overlay overlay-door">
       <button type="button" class="overlay-close">Close</button>
       <nav>
