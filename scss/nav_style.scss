@@ -178,12 +178,14 @@
 }
 
 /* Menu style */
-#trigger-overlay {
+
+.nav_spot {
 
 	color: rgb(20, 153, 20);
+	cursor: pointer;
 }
 
-#trigger-overlay:hover {
+.nav_spot:hover {
 
 	cursor: pointer;
 	color: rgb(10, 75, 10);

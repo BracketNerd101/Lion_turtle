@@ -108,10 +108,11 @@
   z-index: 99999999898989898998; }
 
 /* Menu style */
-#trigger-overlay {
-  color: #149914; }
+.nav_spot {
+  color: #149914;
+  cursor: pointer; }
 
-#trigger-overlay:hover {
+.nav_spot:hover {
   cursor: pointer;
   color: #0a4b0a; }
 
