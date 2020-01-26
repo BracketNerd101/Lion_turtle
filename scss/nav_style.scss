@@ -178,6 +178,19 @@
 }
 
 /* Menu style */
+#trigger-overlay {
+
+	color: rgb(20, 153, 20);
+}
+
+#trigger-overlay:hover {
+
+	cursor: pointer;
+	color: rgb(10, 75, 10);
+}
+
+
+
 .overlay nav {
 	text-align: center;
 	position: relative;
