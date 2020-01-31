@@ -178,6 +178,21 @@
 }
 
 /* Menu style */
+
+.nav_spot {
+
+	color: rgb(20, 153, 20);
+	cursor: pointer;
+}
+
+.nav_spot:hover {
+
+	cursor: pointer;
+	color: rgb(10, 75, 10);
+}
+
+
+
 .overlay nav {
 	text-align: center;
 	position: relative;

@@ -108,6 +108,14 @@
   z-index: 99999999898989898998; }
 
 /* Menu style */
+.nav_spot {
+  color: #149914;
+  cursor: pointer; }
+
+.nav_spot:hover {
+  cursor: pointer;
+  color: #0a4b0a; }
+
 .overlay nav {
   text-align: center;
   position: relative;
@@ -191,4 +199,4 @@
   .overlay ul li {
     min-height: 34px; } }
 
-/*# sourceMappingURL=nav_style.css.map */
+/*# sourceMappingURL=nav-style.css.map */
